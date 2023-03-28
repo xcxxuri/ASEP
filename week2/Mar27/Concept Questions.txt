@@ -1,0 +1,62 @@
+1. What type would you choose for the following “numbers”?
+A person’s telephone number
+    string
+
+A person’s height
+    double
+
+A person’s age
+    int
+
+A person’s gender (Male, Female, Prefer Not To Answer)
+    Enum (can not use Boolean)
+
+A person’s salary
+    decimal
+
+A book’s ISBN
+    string
+
+A book’s price
+    decimal
+
+A book’s shipping weight
+    double
+
+A country’s population
+    long
+
+The number of stars in the universe
+    ulong
+
+The number of employees in each of the small or medium businesses in the United Kingdom (up to about 50,000 employees per business)
+    ushort
+
+2. What are the difference between value type and reference type variables?
+    Value Types store their values in Stack while reference type variables store references to objects in Heap.
+    Each value type has its own copy of data and operation on one can not effect another while Two reference variable can reference the same object and operation on one can effect another.
+
+
+3. What happens when you divide an int variable by 0?
+    System.DivideByZeroException. 
+
+4. What happens when you divide a double variable by 0?
+    Get result ∞ if the dividend is positive, -∞ if the dividend is is negative.
+
+5. What happens when you overflow an int variable, that is, set it to a value beyond its range?
+    Get Error CS0266: Cannot implicitly convert type 'uint' to 'int'. 
+
+6. What is the difference between x = y++; and x = ++y;?
+    x = y++; first assign value of y to x then increment y by one 
+    x = ++y; first increment y by 1 then assign value of y to x 
+
+7. What is the difference between break, continue, and return when used inside a loopstatement?
+    Use break to exit loop
+    Use continue to skip current iteration and start next iteration
+    Use return to exit entire method and return value
+
+8. What are the three parts of a for statement and which of them are required?
+    The initialization expression, The condition expression, and The iteration expression.
+    The initialization expression and the condition expression are required. 
+    The iteration expression is optional.
+

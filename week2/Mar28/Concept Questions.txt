@@ -1,0 +1,97 @@
+1. What are the six combinations of access modifier keywords and what do they do? 
+    public: Access isn't restricted.
+    protected: Access is limited to the containing class or types derived from the containing class.
+    internal: Access is limited to the current assembly.
+    protected internal: Access is limited to the current assembly or types derived from the containing class.
+    private: Access is limited to the containing type.
+    private protected: Access is limited to the containing class or types derived from the containing class within the current assembly.
+
+
+2.What is the difference between the static, const, and readonly keywords when applied to a type member?
+    The static keyword indicates that the member belongs to the type itself rather than to a specific object. the member can be accessed using the type name, without needing to create an instance of the type first, often used for utility functions or constants that are relevant to the type as a whole
+
+    The const keyword indicates that the member is a compile-time constant. The value of the member is determined at compile time, and cannot be changed at runtime, often used for values that are unlikely to change
+
+    The readonly keyword indicates that the member is a runtime constant, the value of the member can be set at runtime, but only in the constructor of the type. Once the member is set, it cannot be changed.Often used for values that are determined at runtime, but are expected to remain constant thereafter. 
+
+3. What does a constructor do?
+    A Constructor is a method that is called to initialize the state (or data) when an instance (or object) of a class is created.
+
+4. Why is the partial keyword useful?
+    The partial keyword is used to split a class or struct definition across multiple files. It is useful when we want to split a large class or struct definition into multiple files, or when we want to split a class or struct definition across multiple projects.   
+
+5. What is a tuple?
+    The tuples feature provides concise syntax to group multiple data elements in a lightweight data structure. 
+    Tuples can be useful for returning multiple values from a method, or for passing multiple values as a single argument.
+
+
+6. What does the C# record keyword do?
+    Beginning with C# 9, you use the record keyword to define a reference type that provides built-in functionality for encapsulating data.
+
+7. What does overloading and overriding mean?
+
+    Overloading is a feature that allows you to define multiple methods with the same name, as long as their signatures are different. 
+    Overriding is a feature that allows a derived class to provide a different implementation of a method that is already provided by one of its base classes.
+
+8. What is the difference between a field and a property?
+    A field is a variable that is associated with a class or struct. 
+    A property is a member that provides a flexible mechanism to read, write, or compute the value of a private field. A property is accessed using standard dot notation.
+
+9. How do you make a method parameter optional?
+    U's'e the optional keyword when defining the parameter or give the optional parameter a default value.
+    Optional parameters must be the last parameters in the method signature
+
+10. What is an interface and how is it different from abstract class?
+    Interface is a contract that specifies a set of members that a class or struct must implement, but it does not provide any implementation itself.
+
+    An interface can be implemented by multiple classes, while an abstract class can only be inherited by a single subclass
+    An interface only defines members, while an abstract class can provide some implementation for its members
+
+11. What accessibility level are members of an interface?
+    public
+
+12. True/False. Polymorphism allows derived classes to provide different implementations of the same method.
+    True
+
+13. True/False. The override keyword is used to indicate that a method in a derived class is providing its own implementation of a method.
+    True
+
+
+14. True/False. The new keyword is used to indicate that a method in a derived class is providing its own implementation of a method.
+    True
+
+15. True/False. Abstract methods can be used in a normal (non-abstract) class. 
+    False
+
+16. True/False. Normal (non-abstract) methods can be used in an abstract class. 
+    True
+
+17. True/False. Derived classes can override methods that were virtual in the base class. 
+    True
+
+18. True/False. Derived classes can override methods that were abstract in the base class. 
+    True
+
+19. True/False. In a derived class, you can override a method that was neither virtual nor abstract in the base class.
+    False
+
+20. True/False. A class that implements an interface does not have to provide an implementation for all of the members of the interface.
+    False
+
+21. True/False. A class that implements an interface is allowed to have other members that aren’t defined in the interface.
+    True
+
+22. True/False. A class can have more than one base class.
+    False
+
+23. True/False. A class can implement more than one interface.
+    True
+
+24. What is meant by the terms managed resource and unmanaged resource in .NET
+    A managed resource is a resource that is controlled and managed by the .NET runtime, such as memory allocated by the garbage collector or file handles managed by the .NET framework.
+
+    An unmanaged resource is a resource that is not controlled or managed by the .NET runtime, such as a file handle or network socket that is opened using a native API or library.
+
+
+25. What's the purpose of Garbage Collector in .NET?
+    Automatically manages the allocation and release of memory for your application

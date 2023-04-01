@@ -1,0 +1,15 @@
+/Users/jason_xu/Documents/Antra/Github/ASEP/week2/Mar29/Assignment4Generic/Assignment4Generic/bin/Debug/net6.0/Assignment4Generic
+/Users/jason_xu/Documents/Antra/Github/ASEP/week2/Mar29/Assignment4Generic/Assignment4Generic/bin/Debug/net6.0/Assignment4Generic.deps.json
+/Users/jason_xu/Documents/Antra/Github/ASEP/week2/Mar29/Assignment4Generic/Assignment4Generic/bin/Debug/net6.0/Assignment4Generic.runtimeconfig.json
+/Users/jason_xu/Documents/Antra/Github/ASEP/week2/Mar29/Assignment4Generic/Assignment4Generic/bin/Debug/net6.0/Assignment4Generic.dll
+/Users/jason_xu/Documents/Antra/Github/ASEP/week2/Mar29/Assignment4Generic/Assignment4Generic/bin/Debug/net6.0/Assignment4Generic.pdb
+/Users/jason_xu/Documents/Antra/Github/ASEP/week2/Mar29/Assignment4Generic/Assignment4Generic/obj/Debug/net6.0/Assignment4Generic.csproj.AssemblyReference.cache
+/Users/jason_xu/Documents/Antra/Github/ASEP/week2/Mar29/Assignment4Generic/Assignment4Generic/obj/Debug/net6.0/Assignment4Generic.GeneratedMSBuildEditorConfig.editorconfig
+/Users/jason_xu/Documents/Antra/Github/ASEP/week2/Mar29/Assignment4Generic/Assignment4Generic/obj/Debug/net6.0/Assignment4Generic.AssemblyInfoInputs.cache
+/Users/jason_xu/Documents/Antra/Github/ASEP/week2/Mar29/Assignment4Generic/Assignment4Generic/obj/Debug/net6.0/Assignment4Generic.AssemblyInfo.cs
+/Users/jason_xu/Documents/Antra/Github/ASEP/week2/Mar29/Assignment4Generic/Assignment4Generic/obj/Debug/net6.0/Assignment4Generic.csproj.CoreCompileInputs.cache
+/Users/jason_xu/Documents/Antra/Github/ASEP/week2/Mar29/Assignment4Generic/Assignment4Generic/obj/Debug/net6.0/Assignment4Generic.dll
+/Users/jason_xu/Documents/Antra/Github/ASEP/week2/Mar29/Assignment4Generic/Assignment4Generic/obj/Debug/net6.0/refint/Assignment4Generic.dll
+/Users/jason_xu/Documents/Antra/Github/ASEP/week2/Mar29/Assignment4Generic/Assignment4Generic/obj/Debug/net6.0/Assignment4Generic.pdb
+/Users/jason_xu/Documents/Antra/Github/ASEP/week2/Mar29/Assignment4Generic/Assignment4Generic/obj/Debug/net6.0/Assignment4Generic.genruntimeconfig.cache
+/Users/jason_xu/Documents/Antra/Github/ASEP/week2/Mar29/Assignment4Generic/Assignment4Generic/obj/Debug/net6.0/ref/Assignment4Generic.dll

@@ -1,0 +1,27 @@
+﻿<Properties StartupConfiguration="{399D52C4-36D8-4285-9793-204FBDC8AB34}|Default">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.ItemProperties.Assignment4Generic PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assignment4Generic/Program.cs">
+    <Files>
+      <File FileName="Assignment4Generic/Program.cs" Line="18" Column="54" />
+      <File FileName="Assignment4Generic/MyList.cs" Line="74" Column="1" />
+      <File FileName="Assignment4Generic/IRepository.cs" Line="54" Column="57" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="Assignment4Generic" expanded="True">
+            <Node name="Assignment4Generic" expanded="True">
+              <Node name="Program.cs" selected="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MultiItemStartupConfigurations />
+</Properties>

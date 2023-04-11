@@ -1,0 +1,6 @@
+﻿<Properties StartupConfiguration="{92330F3F-E44F-4F84-AF93-D095634BCBFC}|Default">
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.ItemProperties.Infrastructure FirstBuild="True" />
+  <MonoDevelop.Ide.ItemProperties.DapperLearning FirstBuild="True" PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.ItemProperties.ApplicationCore FirstBuild="True" />
+</Properties>

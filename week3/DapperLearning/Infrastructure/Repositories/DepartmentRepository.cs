@@ -21,6 +21,7 @@ namespace Infrastructure.Repositories
 
         public int DeleteById(int id)
         {
+            // here we use using statement to dispose the connection after the operation is done
             using (IDbConnection conn = _dbcontext.GetConnection())
             {
                 return conn.Execute("DELETE FROM Departments WHERE Id = @Id", new { Id = id } );

@@ -13,8 +13,7 @@ namespace DapperLearning.Menu
             departmentService = new DepartmentService();
 
         }
-
-        public void Run()
+        public void DisplayMenu()
         {
             Console.WriteLine("Welcome to the Employee Management System");
             Console.WriteLine("Please select an option from the menu below:");
@@ -29,48 +28,100 @@ namespace DapperLearning.Menu
             Console.WriteLine("9. Get Department By Id");
             Console.WriteLine("10. Get All Departments");
             Console.WriteLine("11. Exit");
-            var choice = InputChoice();
+        }
 
-            // switch statement to handle the user's choice
-            switch (choice)
+        public void Run()
+        {
+            // use while loop to keep the menu running until the user choose to exit
+            while (true)
             {
-                case 1:
-                    employeeService.AddEmployee();
-                    break;
-                case 2:
-                    employeeService.DeleteEmployee();
-                    break;
-                case 3:
-                    employeeService.UpdateEmployee();
-                    break;
-                case 4:
-                    employeeService.GetEmployeeById();
-                    break;
-                case 5:
-                    employeeService.GetAllEmployees();
-                    break;
-                case 6:
-                    departmentService.AddDepartment();
-                    break;
-                case 7:
-                    departmentService.DeleteDepartment();
-                    break;
-                case 8:
-                    departmentService.UpdateDepartment();
-                    break;
-                case 9:
-                    departmentService.GetDepartmentById();
-                    break;
-                case 10:
-                    departmentService.GetAllDepartments();
-                    break;
-                case 11:
-                    Console.WriteLine("Thank you for using the Employee Management System");
-                    break;
-                default:
-                    Console.WriteLine("Invalid choice");
-                    break;
+                DisplayMenu();
+                var choice = InputChoice();
+                // switch statement to handle the user's choice
+                switch (choice)
+                {
+                    case 1:
+                        employeeService.AddEmployee();
+                        break;
+                    case 2:
+                        employeeService.DeleteEmployee();
+                        break;
+                    case 3:
+                        employeeService.UpdateEmployee();
+                        break;
+                    case 4:
+                        employeeService.GetEmployeeById();
+                        break;
+                    case 5:
+                        employeeService.GetAllEmployees();
+                        break;
+                    case 6:
+                        departmentService.AddDepartment();
+                        break;
+                    case 7:
+                        departmentService.DeleteDepartment();
+                        break;
+                    case 8:
+                        departmentService.UpdateDepartment();
+                        break;
+                    case 9:
+                        departmentService.GetDepartmentById();
+                        break;
+                    case 10:
+                        departmentService.GetAllDepartments();
+                        break;
+                    case 11:
+                        Console.WriteLine("Thank you for using the Employee Management System");
+                        break;
+                    default:
+                        Console.WriteLine("Invalid choice");
+                        break;
+                }
             }
+
+
+            // var choice = InputChoice();
+
+            // // switch statement to handle the user's choice
+            // switch (choice)
+            // {
+            //     case 1:
+            //         employeeService.AddEmployee();
+            //         break;
+            //     case 2:
+            //         employeeService.DeleteEmployee();
+            //         break;
+            //     case 3:
+            //         employeeService.UpdateEmployee();
+            //         break;
+            //     case 4:
+            //         employeeService.GetEmployeeById();
+            //         break;
+            //     case 5:
+            //         employeeService.GetAllEmployees();
+            //         break;
+            //     case 6:
+            //         departmentService.AddDepartment();
+            //         break;
+            //     case 7:
+            //         departmentService.DeleteDepartment();
+            //         break;
+            //     case 8:
+            //         departmentService.UpdateDepartment();
+            //         break;
+            //     case 9:
+            //         departmentService.GetDepartmentById();
+            //         break;
+            //     case 10:
+            //         departmentService.GetAllDepartments();
+            //         break;
+            //     case 11:
+            //         Console.WriteLine("Thank you for using the Employee Management System");
+            //         break;
+            //     default:
+            //         Console.WriteLine("Invalid choice");
+            //         break;
+            // }
         }
 
         public int InputChoice()

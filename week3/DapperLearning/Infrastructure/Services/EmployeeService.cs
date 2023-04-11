@@ -58,8 +58,9 @@ namespace Infrastructure.Services
         {
             IEnumerable<Employees> employees = employeeRepository.GetAll();
             foreach (var item in employees)
-            {
-                Console.WriteLine($"Id: {item.Id} \t Name: {item.FirstName} \t Salary: {item.Salary} \t Department Id: {item.DeptId}");
+            {   
+                string FullName = item.FirstName + " " + item.LastName;
+                Console.WriteLine($"Id: {item.Id} \t Name: {FullName} \t Salary: {item.Salary} \t Department Id: {item.DeptId}");
             }
         }
 
@@ -86,7 +87,8 @@ namespace Infrastructure.Services
             Console.Write("Enter Employee Id:  ");
             int id = Convert.ToInt32(Console.ReadLine());
             Employees employees = employeeRepository.GetById(id);
-            Console.WriteLine($"Id: {employees.Id} \t Name: {employees.FirstName} \t Salary: {employees.Salary} \t Department Id: {employees.DeptId}");
+            string FullName = employees.FirstName + " " + employees.LastName;
+            Console.WriteLine($"Id: {employees.Id} \t Name: {FullName} \t Salary: {employees.Salary} \t Department Id: {employees.DeptId}");
             return employeeRepository.GetById(id);
         }
 

@@ -1,0 +1,71 @@
+﻿@model MVCLearning.Models.EmployeeListRequest
+
+<!--
+you can only bring a singular object from controller to view
+
+-->
+@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div class="text-center">
+    <h1 class="display-4">Welcome</h1>
+    <p>Learn about <a href="https://docs.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
+    <p>
+        @ViewBag.AnyValue
+    </p>
+<script>
+    @* anything  *@
+</script>
+    <p>
+        @* we use @ to tell the razer page that next line is C# code *@
+       
+            @foreach (var item in Model.Users)
+            {
+                <table>
+                    <thead>
+                        <td>
+                            First Name
+                        </td>
+                        <td>
+                            Last Name
+                        </td>
+                        <td>
+                            User Name
+                        </td>
+                    </thead>
+                    <tbody>
+                        <td>
+                            @item.FirstName
+                        </td>
+                        <td>
+                            @item.LastName
+                        </td>
+                        <td>
+                            @item.UserName
+                        </td>
+                    </tbody>
+                </table>
+
+                @* @Html.ActionLink(item.UserName, "username", "Home")
+                <span> </span>
+                @Html.ActionLink(item.FirstName, "username", "Home")
+                <span> </span>
+                @Html.ActionLink(item.LastName, "username", "Home")
+               <div>
+                --------------------
+               </div> *@
+            }
+      
+    </p>
+</div>
+
+@*  We can input C# code *@
+@{
+    if(true)
+    {
+        
+        Console.WriteLine("Logging  in Index.cshtml");
+        
+    }
+}

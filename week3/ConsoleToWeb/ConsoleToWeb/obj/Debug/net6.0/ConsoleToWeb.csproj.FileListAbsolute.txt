@@ -1,0 +1,15 @@
+/Users/jason_xu/Documents/Antra/workspace/Week3/Apr12/ConsoleToWeb/ConsoleToWeb/bin/Debug/net6.0/ConsoleToWeb
+/Users/jason_xu/Documents/Antra/workspace/Week3/Apr12/ConsoleToWeb/ConsoleToWeb/bin/Debug/net6.0/ConsoleToWeb.deps.json
+/Users/jason_xu/Documents/Antra/workspace/Week3/Apr12/ConsoleToWeb/ConsoleToWeb/bin/Debug/net6.0/ConsoleToWeb.runtimeconfig.json
+/Users/jason_xu/Documents/Antra/workspace/Week3/Apr12/ConsoleToWeb/ConsoleToWeb/bin/Debug/net6.0/ConsoleToWeb.dll
+/Users/jason_xu/Documents/Antra/workspace/Week3/Apr12/ConsoleToWeb/ConsoleToWeb/bin/Debug/net6.0/ConsoleToWeb.pdb
+/Users/jason_xu/Documents/Antra/workspace/Week3/Apr12/ConsoleToWeb/ConsoleToWeb/obj/Debug/net6.0/ConsoleToWeb.csproj.AssemblyReference.cache
+/Users/jason_xu/Documents/Antra/workspace/Week3/Apr12/ConsoleToWeb/ConsoleToWeb/obj/Debug/net6.0/ConsoleToWeb.GeneratedMSBuildEditorConfig.editorconfig
+/Users/jason_xu/Documents/Antra/workspace/Week3/Apr12/ConsoleToWeb/ConsoleToWeb/obj/Debug/net6.0/ConsoleToWeb.AssemblyInfoInputs.cache
+/Users/jason_xu/Documents/Antra/workspace/Week3/Apr12/ConsoleToWeb/ConsoleToWeb/obj/Debug/net6.0/ConsoleToWeb.AssemblyInfo.cs
+/Users/jason_xu/Documents/Antra/workspace/Week3/Apr12/ConsoleToWeb/ConsoleToWeb/obj/Debug/net6.0/ConsoleToWeb.csproj.CoreCompileInputs.cache
+/Users/jason_xu/Documents/Antra/workspace/Week3/Apr12/ConsoleToWeb/ConsoleToWeb/obj/Debug/net6.0/ConsoleToWeb.dll
+/Users/jason_xu/Documents/Antra/workspace/Week3/Apr12/ConsoleToWeb/ConsoleToWeb/obj/Debug/net6.0/refint/ConsoleToWeb.dll
+/Users/jason_xu/Documents/Antra/workspace/Week3/Apr12/ConsoleToWeb/ConsoleToWeb/obj/Debug/net6.0/ConsoleToWeb.pdb
+/Users/jason_xu/Documents/Antra/workspace/Week3/Apr12/ConsoleToWeb/ConsoleToWeb/obj/Debug/net6.0/ConsoleToWeb.genruntimeconfig.cache
+/Users/jason_xu/Documents/Antra/workspace/Week3/Apr12/ConsoleToWeb/ConsoleToWeb/obj/Debug/net6.0/ref/ConsoleToWeb.dll

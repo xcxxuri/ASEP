@@ -1,0 +1,24 @@
+﻿<Properties StartupConfiguration="{E55E5F5B-3AD6-4DAA-8100-DA6A0B116DB6}|Default">
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.ItemProperties.MiddlewareLearning PreferredExecutionTarget="/Applications/Google Chrome.app" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workbench ActiveDocument="MiddlewareLearning/Program.cs">
+    <Files>
+      <File FileName="MiddlewareLearning/Program.cs" Line="34" Column="9" />
+      <File FileName="MiddlewareLearning/QueryStringMiddleware.cs" Line="22" Column="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="MiddlewareLearning" expanded="True">
+            <Node name="MiddlewareLearning" expanded="True" />
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+</Properties>

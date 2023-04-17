@@ -1,0 +1,34 @@
+@model MVCLearning.Models.DepartmentListRequest
+
+@*  show all the departments *@
+
+@{
+    foreach (var department in Model.Depts)
+    {
+        <table>
+                    <thead>
+                        <td>
+                            ID
+                        </td>
+                        <td>
+                            DEP NAME
+                        </td>
+                        <td>
+                            LOCATION
+                        </td>
+                    </thead>
+                    <tbody>
+                        <td>
+                            @department.Id
+                        </td>
+                        <td>
+                            @department.DeptName
+                        </td>
+                        <td>
+                            @department.Location
+                        </td>
+                    </tbody>
+                </table>
+    }
+    
+}

@@ -1,0 +1,34 @@
+﻿<Properties StartupConfiguration="{4A7DD647-AFD9-4327-824B-776C1B8C79B9}|Default">
+  <MonoDevelop.Ide.ItemProperties.MVCLearning FirstBuild="True" />
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workbench ActiveDocument="MVCLearning/Program.cs">
+    <Files>
+      <File FileName="MVCLearning/Program.cs" Line="21" Column="1" />
+      <File FileName="MVCLearning/UserRepo/Operation.cs" Line="17" Column="6" />
+      <File FileName="MVCLearning/Controllers/HomeController.cs" Line="10" Column="54" />
+      <File FileName="MVCLearning/Views/Home/DependencyInjection.cshtml" Line="17" Column="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="ConsoleToWeb" expanded="True">
+            <Node name="MVCLearning" expanded="True">
+              <Node name="Controllers" expanded="True" />
+              <Node name="UserRepo" expanded="True" />
+              <Node name="Views" expanded="True">
+                <Node name="Home" expanded="True" />
+              </Node>
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.ItemProperties.WebProj FirstBuild="True" />
+  <MonoDevelop.Ide.ItemProperties.ConsoleToWeb PreferredExecutionTarget="MonoDevelop.Default" />
+</Properties>

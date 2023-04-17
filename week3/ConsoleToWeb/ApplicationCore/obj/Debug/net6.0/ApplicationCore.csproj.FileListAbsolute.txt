@@ -1,0 +1,12 @@
+/Users/jason_xu/Documents/Antra/workspace/Week3/Apr12/ConsoleToWeb/ApplicationCore/bin/Debug/net6.0/ApplicationCore.deps.json
+/Users/jason_xu/Documents/Antra/workspace/Week3/Apr12/ConsoleToWeb/ApplicationCore/bin/Debug/net6.0/ApplicationCore.dll
+/Users/jason_xu/Documents/Antra/workspace/Week3/Apr12/ConsoleToWeb/ApplicationCore/bin/Debug/net6.0/ApplicationCore.pdb
+/Users/jason_xu/Documents/Antra/workspace/Week3/Apr12/ConsoleToWeb/ApplicationCore/obj/Debug/net6.0/ApplicationCore.csproj.AssemblyReference.cache
+/Users/jason_xu/Documents/Antra/workspace/Week3/Apr12/ConsoleToWeb/ApplicationCore/obj/Debug/net6.0/ApplicationCore.GeneratedMSBuildEditorConfig.editorconfig
+/Users/jason_xu/Documents/Antra/workspace/Week3/Apr12/ConsoleToWeb/ApplicationCore/obj/Debug/net6.0/ApplicationCore.AssemblyInfoInputs.cache
+/Users/jason_xu/Documents/Antra/workspace/Week3/Apr12/ConsoleToWeb/ApplicationCore/obj/Debug/net6.0/ApplicationCore.AssemblyInfo.cs
+/Users/jason_xu/Documents/Antra/workspace/Week3/Apr12/ConsoleToWeb/ApplicationCore/obj/Debug/net6.0/ApplicationCore.csproj.CoreCompileInputs.cache
+/Users/jason_xu/Documents/Antra/workspace/Week3/Apr12/ConsoleToWeb/ApplicationCore/obj/Debug/net6.0/ApplicationCore.dll
+/Users/jason_xu/Documents/Antra/workspace/Week3/Apr12/ConsoleToWeb/ApplicationCore/obj/Debug/net6.0/refint/ApplicationCore.dll
+/Users/jason_xu/Documents/Antra/workspace/Week3/Apr12/ConsoleToWeb/ApplicationCore/obj/Debug/net6.0/ApplicationCore.pdb
+/Users/jason_xu/Documents/Antra/workspace/Week3/Apr12/ConsoleToWeb/ApplicationCore/obj/Debug/net6.0/ref/ApplicationCore.dll

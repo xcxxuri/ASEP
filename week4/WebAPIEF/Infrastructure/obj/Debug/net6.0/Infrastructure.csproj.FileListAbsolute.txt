@@ -1,0 +1,17 @@
+/Users/jason_xu/Documents/Antra/workspace/week4/april19/WebAPIEF/Infrastructure/bin/Debug/net6.0/Infrastructure.deps.json
+/Users/jason_xu/Documents/Antra/workspace/week4/april19/WebAPIEF/Infrastructure/bin/Debug/net6.0/Infrastructure.runtimeconfig.json
+/Users/jason_xu/Documents/Antra/workspace/week4/april19/WebAPIEF/Infrastructure/bin/Debug/net6.0/Infrastructure.dll
+/Users/jason_xu/Documents/Antra/workspace/week4/april19/WebAPIEF/Infrastructure/bin/Debug/net6.0/Infrastructure.pdb
+/Users/jason_xu/Documents/Antra/workspace/week4/april19/WebAPIEF/Infrastructure/bin/Debug/net6.0/ApplicationCore.dll
+/Users/jason_xu/Documents/Antra/workspace/week4/april19/WebAPIEF/Infrastructure/bin/Debug/net6.0/ApplicationCore.pdb
+/Users/jason_xu/Documents/Antra/workspace/week4/april19/WebAPIEF/Infrastructure/obj/Debug/net6.0/Infrastructure.csproj.AssemblyReference.cache
+/Users/jason_xu/Documents/Antra/workspace/week4/april19/WebAPIEF/Infrastructure/obj/Debug/net6.0/Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+/Users/jason_xu/Documents/Antra/workspace/week4/april19/WebAPIEF/Infrastructure/obj/Debug/net6.0/Infrastructure.AssemblyInfoInputs.cache
+/Users/jason_xu/Documents/Antra/workspace/week4/april19/WebAPIEF/Infrastructure/obj/Debug/net6.0/Infrastructure.AssemblyInfo.cs
+/Users/jason_xu/Documents/Antra/workspace/week4/april19/WebAPIEF/Infrastructure/obj/Debug/net6.0/Infrastructure.csproj.CoreCompileInputs.cache
+/Users/jason_xu/Documents/Antra/workspace/week4/april19/WebAPIEF/Infrastructure/obj/Debug/net6.0/Infrastructure.csproj.CopyComplete
+/Users/jason_xu/Documents/Antra/workspace/week4/april19/WebAPIEF/Infrastructure/obj/Debug/net6.0/Infrastructure.dll
+/Users/jason_xu/Documents/Antra/workspace/week4/april19/WebAPIEF/Infrastructure/obj/Debug/net6.0/refint/Infrastructure.dll
+/Users/jason_xu/Documents/Antra/workspace/week4/april19/WebAPIEF/Infrastructure/obj/Debug/net6.0/Infrastructure.pdb
+/Users/jason_xu/Documents/Antra/workspace/week4/april19/WebAPIEF/Infrastructure/obj/Debug/net6.0/Infrastructure.genruntimeconfig.cache
+/Users/jason_xu/Documents/Antra/workspace/week4/april19/WebAPIEF/Infrastructure/obj/Debug/net6.0/ref/Infrastructure.dll

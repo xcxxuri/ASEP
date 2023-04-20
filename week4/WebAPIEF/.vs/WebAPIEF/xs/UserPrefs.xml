@@ -1,0 +1,63 @@
+﻿<Properties StartupConfiguration="{DF35965E-C80D-4E5C-B06D-8DDB5D7CFAA1}|Default">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.ItemProperties.WebAPIEF PreferredExecutionTarget="/Applications/Google Chrome.app" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="WebAPIEF/Middleware/ExceptionMiddleware.cs">
+    <Files>
+      <File FileName="Infrastructure/Data/RecurtingDbContext.cs" />
+      <File FileName="ApplicationCore/Contract/Repositories/IBaseRepository.cs" />
+      <File FileName="ApplicationCore/Contract/Repositories/ICandidateRepository.cs" />
+      <File FileName="ApplicationCore/Contract/Services/ICandidateService.cs" />
+      <File FileName="ApplicationCore/Entities/Candidate.cs" />
+      <File FileName="ApplicationCore/Models/CandidateRequestModel.cs" />
+      <File FileName="ApplicationCore/Models/CandidateResponseModel.cs" />
+      <File FileName="Infrastructure/Repositories/BaseRepository.cs" />
+      <File FileName="Infrastructure/Repositories/CandidateRepository.cs" />
+      <File FileName="Infrastructure/Services/CandidateService.cs" />
+      <File FileName="WebAPIEF/Controllers/CandidateController.cs" />
+      <File FileName="WebAPIEF/Program.cs" />
+      <File FileName="ApplicationCore/Entities/Submission.cs" />
+      <File FileName="ApplicationCore/Entities/Status.cs" />
+      <File FileName="ApplicationCore/Entities/JobRequirement.cs" />
+      <File FileName="ApplicationCore/Entities/EmployeeRequirementType.cs" />
+      <File FileName="ApplicationCore/Entities/EmployeeType.cs" />
+      <File FileName="ApplicationCore/Entities/JobCategory.cs" Line="16" Column="1" />
+      <File FileName="WebAPIEF/Middleware/ExceptionHandlerMiddleware.cs" Line="13" Column="1" />
+      <File FileName="WebAPIEF/Middleware/ExceptionMiddleware.cs" Line="1" Column="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="WebAPIEF" expanded="True">
+            <Node name="ApplicationCore" expanded="True">
+              <Node name="Contract" expanded="True">
+                <Node name="Repositories" expanded="True" />
+                <Node name="Services" expanded="True" />
+              </Node>
+              <Node name="Entities" expanded="True" />
+              <Node name="Models" expanded="True" />
+            </Node>
+            <Node name="Infrastructure" expanded="True">
+              <Node name="Dependencies" expanded="True">
+                <Node name="PackageDependencies" expanded="True" />
+              </Node>
+              <Node name="Data" expanded="True" />
+              <Node name="Repositories" expanded="True" />
+              <Node name="Services" expanded="True" />
+            </Node>
+            <Node name="WebAPIEF" expanded="True">
+              <Node name="Controllers" expanded="True" />
+              <Node name="Middleware" expanded="True">
+                <Node name="ExceptionMiddleware.cs" selected="True" />
+              </Node>
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+</Properties>

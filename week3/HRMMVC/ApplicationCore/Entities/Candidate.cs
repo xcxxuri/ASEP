@@ -6,22 +6,20 @@ namespace ApplicationCore.Entities
 {
     public class Candidate
     {
-        // [somgeting] is called data annotation
         public int Id { get; set; }
-        public string? FirstName { get; set; }
-        public string? MiddleName { get; set; }
-        public string? LastName { get; set; }
-
-
-        // Required attribute is used to specify that the property is required
-        [Required]
-        // Here set the column type to varchar(100) of Email property
-        [Column(TypeName = "varchar(100)")]
-        public string? Email { get; set; }
-
-        // Here set the column type to varchar(1000) of ResumeURL property
-        [Column(TypeName = "varchar(1000)")]
-        public string? ResumeURL { get; set; }
+        [Required(ErrorMessage = "Required")]
+        [StringLength(50, ErrorMessage = "Max 50 characters")]
+        public string FirstName { get; set; } = "";
+        public string? MiddleName { get; set; } = "";
+        [Required(ErrorMessage = "Required")]
+        [StringLength(50, ErrorMessage = "Max 50 characters")]
+        public string LastName { get; set; } = "";
+        [Required(ErrorMessage = "Required")]
+        [RegularExpression(@"\b[A-Z0-9._%-]+@[A-Z0-9.-]+\.[A-Z]{2,4}\b")]
+        public string Email { get; set; } = "";
+        [Required(ErrorMessage = "Required")]
+        public string ResumeURL { get; set; } = "";
+        public List<Submission>? Submissions { get; set; }
 
     }
 }

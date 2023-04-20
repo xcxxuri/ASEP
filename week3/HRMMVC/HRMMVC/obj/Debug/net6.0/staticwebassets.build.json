@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "eDQy8oo7bkfLe2KyBHEc4cjDgAJoVG1zVAs0fCEPdmI=",
+  "Hash": "Jll3BOu28/UygfVyYcgQB+9Sid3tAtTXHFK8yeQorL4=",
   "Source": "HRMMVC",
   "BasePath": "_content/HRMMVC",
   "Mode": "Default",
@@ -49,6 +49,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "/Users/jason_xu/Documents/Antra/workspace/Week3/Apr14/HRMMVC/HRMMVC/obj/Debug/net6.0/scopedcss/projectbundle/HRMMVC.bundle.scp.css"
+    },
+    {
+      "Identity": "/Users/jason_xu/Documents/Antra/workspace/Week3/Apr14/HRMMVC/HRMMVC/wwwroot/.DS_Store",
+      "SourceId": "HRMMVC",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/jason_xu/Documents/Antra/workspace/Week3/Apr14/HRMMVC/HRMMVC/wwwroot/",
+      "BasePath": "_content/HRMMVC",
+      "RelativePath": ".DS_Store",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/.DS_Store"
     },
     {
       "Identity": "/Users/jason_xu/Documents/Antra/workspace/Week3/Apr14/HRMMVC/HRMMVC/wwwroot/css/site.css",

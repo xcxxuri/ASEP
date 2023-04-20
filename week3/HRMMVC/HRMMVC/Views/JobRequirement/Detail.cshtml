@@ -1,0 +1,19 @@
+﻿@using ApplicationCore.Models;
+@model ApplicationCore.Models.JobRequirementResponseModel
+
+@{
+    var item = new JobRequirementResponseModel() { };
+    @Html.Partial("_JobCard", item);
+    /*
+     *
+     * <div class="card mb-4 shadow bg-light">
+    <a asp-controller="JobRequirements" asp-action="@Model.ActionRoute" asp-route-id="@Model.Id">
+
+     </a>
+    </div>
+    */
+}
+
+
+@await Html.PartialAsync("_JobCard", @Model);
+

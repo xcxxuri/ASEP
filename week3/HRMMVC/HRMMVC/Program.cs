@@ -1,6 +1,8 @@
 ﻿using ApplicationCore.Contract.Repositories;
+using HRMMVC.Middleware;
 using Infrastructure.Data;
 using Infrastructure.Repositories;
+using Infrastructure.Service;
 using Microsoft.EntityFrameworkCore;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -41,6 +43,11 @@ app.UseAuthorization();
 app.MapControllerRoute(
     name: "default",
     pattern: "{controller=Home}/{action=Index}/{id?}");
+
+app.UseExceptionHandlerMiddleware();// this is a name of the middleware that we have created.
+// the reason we don't use above line is because we have created a extension method for the IApplicationBuilder interface, so we can use the UseExceptionHandlerMiddleware extension method on the IApplicationBuilder interface.
+// app.UseMiddleware<ExceptionMiddleware>();
+
 
 app.Run();
 

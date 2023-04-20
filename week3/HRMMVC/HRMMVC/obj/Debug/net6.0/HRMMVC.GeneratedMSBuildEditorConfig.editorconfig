@@ -16,6 +16,18 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = /Users/jason_xu/Documents/Antra/workspace/Week3/Apr14/HRMMVC/HRMMVC
 build_property._RazorSourceGeneratorDebug = 
 
+[/Users/jason_xu/Documents/Antra/workspace/Week3/Apr14/HRMMVC/HRMMVC/Views/Candidate/AllDetails.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQ2FuZGlkYXRlL0FsbERldGFpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/jason_xu/Documents/Antra/workspace/Week3/Apr14/HRMMVC/HRMMVC/Views/Candidate/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQ2FuZGlkYXRlL0RlbGV0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/jason_xu/Documents/Antra/workspace/Week3/Apr14/HRMMVC/HRMMVC/Views/Candidate/Update.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQ2FuZGlkYXRlL1VwZGF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
 [/Users/jason_xu/Documents/Antra/workspace/Week3/Apr14/HRMMVC/HRMMVC/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSG9tZS9JbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
@@ -24,12 +36,52 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSG9tZS9Qcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
+[/Users/jason_xu/Documents/Antra/workspace/Week3/Apr14/HRMMVC/HRMMVC/Views/JobRequirement/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSm9iUmVxdWlyZW1lbnQvQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/jason_xu/Documents/Antra/workspace/Week3/Apr14/HRMMVC/HRMMVC/Views/JobRequirement/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSm9iUmVxdWlyZW1lbnQvRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/jason_xu/Documents/Antra/workspace/Week3/Apr14/HRMMVC/HRMMVC/Views/JobRequirement/Detail.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSm9iUmVxdWlyZW1lbnQvRGV0YWlsLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/jason_xu/Documents/Antra/workspace/Week3/Apr14/HRMMVC/HRMMVC/Views/JobRequirement/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSm9iUmVxdWlyZW1lbnQvSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/jason_xu/Documents/Antra/workspace/Week3/Apr14/HRMMVC/HRMMVC/Views/JobRequirement/Update.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSm9iUmVxdWlyZW1lbnQvVXBkYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
 [/Users/jason_xu/Documents/Antra/workspace/Week3/Apr14/HRMMVC/HRMMVC/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL0Vycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
 [/Users/jason_xu/Documents/Antra/workspace/Week3/Apr14/HRMMVC/HRMMVC/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL19WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/jason_xu/Documents/Antra/workspace/Week3/Apr14/HRMMVC/HRMMVC/Views/Submission/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU3VibWlzc2lvbi9DcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/jason_xu/Documents/Antra/workspace/Week3/Apr14/HRMMVC/HRMMVC/Views/Submission/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU3VibWlzc2lvbi9EZWxldGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/jason_xu/Documents/Antra/workspace/Week3/Apr14/HRMMVC/HRMMVC/Views/Submission/Detail.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU3VibWlzc2lvbi9EZXRhaWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/jason_xu/Documents/Antra/workspace/Week3/Apr14/HRMMVC/HRMMVC/Views/Submission/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU3VibWlzc2lvbi9JbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/jason_xu/Documents/Antra/workspace/Week3/Apr14/HRMMVC/HRMMVC/Views/Submission/Update.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU3VibWlzc2lvbi9VcGRhdGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
 [/Users/jason_xu/Documents/Antra/workspace/Week3/Apr14/HRMMVC/HRMMVC/Views/_ViewImports.cshtml]

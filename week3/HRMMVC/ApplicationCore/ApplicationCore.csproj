@@ -12,6 +12,7 @@
     <None Remove="Contract\Services\" />
     <None Remove="Contract\Repositories\" />
     <None Remove="Models\" />
+    <None Remove="Exceptions\" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Entities\" />
@@ -19,5 +20,6 @@
     <Folder Include="Contract\Services\" />
     <Folder Include="Contract\Repositories\" />
     <Folder Include="Models\" />
+    <Folder Include="Exceptions\" />
   </ItemGroup>
 </Project>

@@ -16,8 +16,14 @@ namespace Infrastructure.Data
 
         // This is the DbSet property that is used to create a table in the database, here the property is of type Candidate which is the class that we have created in the ApplicationCore/Entities folder.
         public DbSet<Candidate> Candidates { get; set; }
+        public DbSet<JobRequirement> JobRequirements { get; set; }
+        public DbSet<JobCategory> JobCategories { get; set; }
+        public DbSet<EmployeeType> EmployeeTypes { get; set; }
+        public DbSet<EmployeeRequirementType> EmployeeRequirementTypes { get; set; }
+        public DbSet<Submission> Submissions { get; set; }
+        public DbSet<Status> Statuses { get; set; }
 
-        
+
 	}
 }
 

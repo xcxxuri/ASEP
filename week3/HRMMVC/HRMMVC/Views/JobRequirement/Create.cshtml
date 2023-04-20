@@ -1,0 +1,64 @@
+﻿@using ApplicationCore.Models;
+@model JobRequirementRequestModel;
+
+
+<form method="post">
+    <div class="form-group">
+        <label asp-for="NumberOfPosition">Number of Available Positions:</label>
+        <input asp-for="NumberOfPosition" class="form-control" />
+        <!-- View Validation, ModelState Validation, Validation inside database
+        <span asp-validation-for="NumberOfPosition" class="text-danger"></span>-->
+    </div>
+
+    <div class="form-group">
+        <label asp-for="Title">Email:</label>
+        <input asp-for="Title" class="form-control" />
+    </div>
+
+    <div class="form-group">
+        <label asp-for="Description">Description:</label>
+        <textarea asp-for="Description" class="form-control"></textarea>
+    </div>
+    <div class="form-group">
+        <label asp-for="HiringManagerName">HM Name:</label>
+        <textarea asp-for="HiringManagerName" class="form-control"></textarea>
+    </div>
+    <div class="form-group">
+        <label asp-for="StartDate">Start Date:</label>
+        <input type="date" asp-for="StartDate" class="form-control"></input>
+    </div>
+    <div class="form-group">
+        <label asp-for="IsActive">Active or Not:</label>
+        <input type="checkbox" asp-for="IsActive"></input>
+    </div>
+    <div class="form-group">
+        <label asp-for="ClosedReason">ClosedReason:</label>
+        <textarea asp-for="ClosedReason" class="form-control"></textarea>
+    </div>
+    <div class="form-group">
+        <label asp-for="CreatedOn">Created Date:</label>
+        <input type="date" asp-for="CreatedOn" class="form-control"></input>
+    </div>
+
+
+    <button type="submit" class="btn btn-primary">Submit</button>
+</form>
+<!--
+    public int Id { get; set; }
+        public int NumberOfPosition { get; set; }
+        [Required(ErrorMessage = "Required")]
+        [StringLength(256, ErrorMessage = "Max 256 characters")]
+        public string? Title { get; set; }
+        public string? Description { get; set; }
+        public int HiringManagerId { get; set; }
+        [Required(ErrorMessage = "Required")]
+        [StringLength(256, ErrorMessage = "Max 256 characters")]
+        public string? HiringManagerName { get; set; }
+        public DateTime StartDate { get; set; }
+        public bool IsActive { get; set; }
+        public DateTime? ClosedOn { get; set; }
+        [Required(ErrorMessage = "Required")]
+        public string ClosedReason { get; set; }
+        public DateTime CreatedOn { get; set; }
+        public int JobCategoryId { get; set; }
+-->

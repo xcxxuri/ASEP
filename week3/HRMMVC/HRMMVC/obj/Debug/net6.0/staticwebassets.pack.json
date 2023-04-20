@@ -5,6 +5,10 @@
       "PackagePath": "staticwebassets/HRMMVC.bundle.scp.css"
     },
     {
+      "Id": "/Users/jason_xu/Documents/Antra/workspace/Week3/Apr14/HRMMVC/HRMMVC/wwwroot/.DS_Store",
+      "PackagePath": "staticwebassets/.DS_Store"
+    },
+    {
       "Id": "/Users/jason_xu/Documents/Antra/workspace/Week3/Apr14/HRMMVC/HRMMVC/wwwroot/css/site.css",
       "PackagePath": "staticwebassets/css/site.css"
     },

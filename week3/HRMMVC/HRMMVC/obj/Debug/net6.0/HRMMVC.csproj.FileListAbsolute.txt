@@ -95,3 +95,9 @@
 /Users/jason_xu/Documents/Antra/workspace/Week3/Apr14/HRMMVC/HRMMVC/obj/Debug/net6.0/HRMMVC.pdb
 /Users/jason_xu/Documents/Antra/workspace/Week3/Apr14/HRMMVC/HRMMVC/obj/Debug/net6.0/HRMMVC.genruntimeconfig.cache
 /Users/jason_xu/Documents/Antra/workspace/Week3/Apr14/HRMMVC/HRMMVC/obj/Debug/net6.0/ref/HRMMVC.dll
+/Users/jason_xu/Documents/Antra/workspace/Week3/Apr14/HRMMVC/HRMMVC/bin/Debug/net6.0/Azure.Storage.Blobs.dll
+/Users/jason_xu/Documents/Antra/workspace/Week3/Apr14/HRMMVC/HRMMVC/bin/Debug/net6.0/Azure.Storage.Common.dll
+/Users/jason_xu/Documents/Antra/workspace/Week3/Apr14/HRMMVC/HRMMVC/bin/Debug/net6.0/Serilog.dll
+/Users/jason_xu/Documents/Antra/workspace/Week3/Apr14/HRMMVC/HRMMVC/bin/Debug/net6.0/Serilog.Sinks.Console.dll
+/Users/jason_xu/Documents/Antra/workspace/Week3/Apr14/HRMMVC/HRMMVC/bin/Debug/net6.0/Serilog.Sinks.File.dll
+/Users/jason_xu/Documents/Antra/workspace/Week3/Apr14/HRMMVC/HRMMVC/bin/Debug/net6.0/System.IO.Hashing.dll

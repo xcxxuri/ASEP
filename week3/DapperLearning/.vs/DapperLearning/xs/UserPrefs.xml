@@ -1,11 +1,6 @@
 ﻿<Properties StartupConfiguration="{92330F3F-E44F-4F84-AF93-D095634BCBFC}|Default">
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MultiItemStartupConfigurations />
-  <MonoDevelop.Ide.ItemProperties.DapperLearning PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
-  <MonoDevelop.Ide.DebuggingService.Breakpoints>
-    <BreakpointStore />
-  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.Workbench ActiveDocument="Infrastructure/Services/DepartmentService.cs">
     <Files>
       <File FileName="DapperLearning/Program.cs" />
@@ -13,7 +8,7 @@
       <File FileName="ApplicationCore/Entities/Departments.cs" />
       <File FileName="ApplicationCore/Contracts/Repositories/IRepository.cs" />
       <File FileName="Infrastructure/Repositories/DepartmentRepository.cs" />
-      <File FileName="Infrastructure/Repositories/EmployeeRepository.cs" Line="8" Column="38" />
+      <File FileName="Infrastructure/Repositories/EmployeeRepository.cs" />
       <File FileName="Infrastructure/Data/DapperDbContext.cs" />
       <File FileName="Infrastructure/Services/DepartmentService.cs" Line="27" Column="52" />
       <File FileName="Infrastructure/Services/EmployeeService.cs" />
@@ -41,4 +36,9 @@
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.DapperLearning PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
 </Properties>

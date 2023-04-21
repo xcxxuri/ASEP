@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "KTtPHPZ5bUlMGyX30xTfVj9EnOT4O4lSj5fuOicdcjDLUNPsSeb475cYsYq5aaTfysU5ylqjSyW3OczgIOIeLA==",
+  "dgSpecHash": "4zYd55N2o9ThdWiGgOSfViknV8yfB639CO7dTWOFPkRBTuUI3LoXNH8oegFIcQBE9VDoad8uPmEawNpRxRQw6g==",
   "success": true,
-  "projectFilePath": "/Users/jason_xu/Documents/Antra/workspace/week4/april19/WebAPIEF/ApplicationCore/ApplicationCore.csproj",
+  "projectFilePath": "/Users/jason_xu/Documents/Antra/Github/ASEP/week4/WebAPIEF/ApplicationCore/ApplicationCore.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

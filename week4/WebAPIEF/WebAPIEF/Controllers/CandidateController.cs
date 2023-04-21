@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using ApplicationCore.Entities;
+using ApplicationCore.Models;
 using Infrastructure.Services;
 using Microsoft.AspNetCore.Mvc;
 
@@ -35,26 +36,26 @@ namespace WebAPIEF.Controllers
         public IActionResult GetById(int id)
         {
             // Get candidate by id
-            var candidate = _candidateService.GetCandidateById(id);
+            var candidate = _candidateService.GetCandidateByIdAsync(id);
             return Ok(candidate);
         }
 
         // POST api/values
         [HttpPost]
-        public IActionResult Post(Candidate candidate)
+        public IActionResult Post(CandidateRequestModel candidate)
         {
             // Add candidate
-            var result = _candidateService.AddCandidate(candidate);
+            var result = _candidateService.AddCandidateAsync(candidate);
             return Ok(result);
         }
 
 
         // PUT api/values/5
         [HttpPut("{id}")]
-        public IActionResult UpdateCandidate(int id, Candidate candidate)
+        public IActionResult UpdateCandidate(int id, CandidateRequestModel candidate)
         {
             // Update candidate
-            var result = _candidateService.UpdateCandidate(candidate);
+            var result = _candidateService.UpdateCandidateAsync(candidate);
             return Ok(result);
         }
 
@@ -64,7 +65,7 @@ namespace WebAPIEF.Controllers
         public IActionResult DeleteById(int id)
         {
             // Delete candidate
-            var result = _candidateService.DeleteCandidate(id);
+            var result = _candidateService.DeleteCandidateAsync(id);
             return Ok(result);
         }
 

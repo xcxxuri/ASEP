@@ -1,4 +1,5 @@
 ﻿using ApplicationCore.Contract.Repositories;
+using ApplicationCore.Contract.Services;
 using Infrastructure.Data;
 using Infrastructure.Repositories;
 using Infrastructure.Services;
@@ -18,6 +19,18 @@ builder.Services.AddSwaggerGen();
 
 builder.Services.AddScoped<ICandidateRepository, CandidateRepository>();
 builder.Services.AddScoped<CandidateService>();
+
+builder.Services.AddScoped<IJobRequirementRepository, JobRequirementRepository>();
+builder.Services.AddScoped<IJobRequirementService, JobRequirementService>();
+
+builder.Services.AddScoped<ISubmissionRepository, SubmissionRepository>();
+builder.Services.AddScoped<ISubmissionService, SubmissionService>();
+
+builder.Services.AddScoped<IStatusRepository, StatusRepository>();
+builder.Services.AddScoped<IStatusService, StatusService>();
+
+builder.Services.AddScoped<IEmployeeTypeRepository, EmployeeTypeRepository>();
+builder.Services.AddScoped<IEmployeeTypeService, EmployeeTypeService>();
 
 builder.Services.AddDbContext<RecurtingDbContext>(options =>
 {

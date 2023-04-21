@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using ApplicationCore.Contract.Services;
 using ApplicationCore.Entities;
 using ApplicationCore.Models;
 using Infrastructure.Services;
@@ -21,52 +22,57 @@ namespace WebAPIEF.Controllers
         }
 
 
+
         // GET: api/values
         [HttpGet]
-        public IActionResult GetAllCandidates()
+        public async Task<IActionResult> GetAllCandidates()
         {
             // Get all candidates
-            var candidates = _candidateService.GetAllCandidates();
-            return Ok(candidates);
+            // var candidates = _candidateService.GetAllCandidates()
+            // return Ok(candidates);
+            return Ok(await _candidateService.GetAllCandidates());
         }
 
-        // GET api/values/5
-        [HttpGet("{id}")]
-        [Route("GetById/{id}")] // Dynamic Routing
-        public IActionResult GetById(int id)
+        [HttpGet("Details")]
+        public async Task<IActionResult> Details(int id)
         {
-            // Get candidate by id
-            var candidate = _candidateService.GetCandidateByIdAsync(id);
-            return Ok(candidate);
+            return Ok(await _candidateService.GetCandidateByIdAsync(id));
         }
 
         // POST api/values
         [HttpPost]
-        public IActionResult Post(CandidateRequestModel candidate)
+        public async Task<IActionResult> Create(CandidateRequestModel candidate)
         {
             // Add candidate
-            var result = _candidateService.AddCandidateAsync(candidate);
-            return Ok(result);
+            // var result = _candidateService.AddCandidateAsync(candidate);
+            // return Ok(result);
+            if (candidate != null)
+            {
+                return Ok(await _candidateService.AddCandidateAsync(candidate));
+            }
+            return BadRequest();
         }
 
 
         // PUT api/values/5
         [HttpPut("{id}")]
-        public IActionResult UpdateCandidate(int id, CandidateRequestModel candidate)
+        public async Task<IActionResult> UpdateCandidate(int id, CandidateRequestModel candidate)
         {
-            // Update candidate
-            var result = _candidateService.UpdateCandidateAsync(candidate);
-            return Ok(result);
+            // // Update candidate
+            // var result = _candidateService.UpdateCandidateAsync(candidate);
+            // return Ok(result);
+            return Ok(await _candidateService.UpdateCandidateAsync(candidate));
         }
 
 
         // DELETE api/values/5
         [HttpDelete("{id}")]
-        public IActionResult DeleteById(int id)
+        public async Task<IActionResult> DeleteById(int id)
         {
             // Delete candidate
-            var result = _candidateService.DeleteCandidateAsync(id);
-            return Ok(result);
+            // var result = _candidateService.DeleteCandidateAsync(id);
+            // return Ok(result);
+            return Ok(await _candidateService.DeleteCandidateAsync(id));
         }
 
         // Exception Handling

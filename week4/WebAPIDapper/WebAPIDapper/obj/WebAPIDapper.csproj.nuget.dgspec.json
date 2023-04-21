@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/Users/jason_xu/Documents/Antra/workspace/week4/april19/WebAPIDapper/WebAPIDapper/WebAPIDapper.csproj": {}
+    "/Users/jason_xu/Documents/Antra/Github/ASEP/week4/WebAPIDapper/WebAPIDapper/WebAPIDapper.csproj": {}
   },
   "projects": {
-    "/Users/jason_xu/Documents/Antra/workspace/week4/april19/WebAPIDapper/ApplicationCore/ApplicationCore.csproj": {
+    "/Users/jason_xu/Documents/Antra/Github/ASEP/week4/WebAPIDapper/ApplicationCore/ApplicationCore.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/jason_xu/Documents/Antra/workspace/week4/april19/WebAPIDapper/ApplicationCore/ApplicationCore.csproj",
+        "projectUniqueName": "/Users/jason_xu/Documents/Antra/Github/ASEP/week4/WebAPIDapper/ApplicationCore/ApplicationCore.csproj",
         "projectName": "ApplicationCore",
-        "projectPath": "/Users/jason_xu/Documents/Antra/workspace/week4/april19/WebAPIDapper/ApplicationCore/ApplicationCore.csproj",
+        "projectPath": "/Users/jason_xu/Documents/Antra/Github/ASEP/week4/WebAPIDapper/ApplicationCore/ApplicationCore.csproj",
         "packagesPath": "/Users/jason_xu/.nuget/packages/",
-        "outputPath": "/Users/jason_xu/Documents/Antra/workspace/week4/april19/WebAPIDapper/ApplicationCore/obj/",
+        "outputPath": "/Users/jason_xu/Documents/Antra/Github/ASEP/week4/WebAPIDapper/ApplicationCore/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/jason_xu/.nuget/NuGet/NuGet.Config"
@@ -53,18 +53,18 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.202/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.203/RuntimeIdentifierGraph.json"
         }
       }
     },
-    "/Users/jason_xu/Documents/Antra/workspace/week4/april19/WebAPIDapper/Infrastructure/Infrastructure.csproj": {
+    "/Users/jason_xu/Documents/Antra/Github/ASEP/week4/WebAPIDapper/Infrastructure/Infrastructure.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/jason_xu/Documents/Antra/workspace/week4/april19/WebAPIDapper/Infrastructure/Infrastructure.csproj",
+        "projectUniqueName": "/Users/jason_xu/Documents/Antra/Github/ASEP/week4/WebAPIDapper/Infrastructure/Infrastructure.csproj",
         "projectName": "Infrastructure",
-        "projectPath": "/Users/jason_xu/Documents/Antra/workspace/week4/april19/WebAPIDapper/Infrastructure/Infrastructure.csproj",
+        "projectPath": "/Users/jason_xu/Documents/Antra/Github/ASEP/week4/WebAPIDapper/Infrastructure/Infrastructure.csproj",
         "packagesPath": "/Users/jason_xu/.nuget/packages/",
-        "outputPath": "/Users/jason_xu/Documents/Antra/workspace/week4/april19/WebAPIDapper/Infrastructure/obj/",
+        "outputPath": "/Users/jason_xu/Documents/Antra/Github/ASEP/week4/WebAPIDapper/Infrastructure/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/jason_xu/.nuget/NuGet/NuGet.Config"
@@ -79,8 +79,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "/Users/jason_xu/Documents/Antra/workspace/week4/april19/WebAPIDapper/ApplicationCore/ApplicationCore.csproj": {
-                "projectPath": "/Users/jason_xu/Documents/Antra/workspace/week4/april19/WebAPIDapper/ApplicationCore/ApplicationCore.csproj"
+              "/Users/jason_xu/Documents/Antra/Github/ASEP/week4/WebAPIDapper/ApplicationCore/ApplicationCore.csproj": {
+                "projectPath": "/Users/jason_xu/Documents/Antra/Github/ASEP/week4/WebAPIDapper/ApplicationCore/ApplicationCore.csproj"
               }
             }
           }
@@ -120,18 +120,18 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.202/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.203/RuntimeIdentifierGraph.json"
         }
       }
     },
-    "/Users/jason_xu/Documents/Antra/workspace/week4/april19/WebAPIDapper/WebAPIDapper/WebAPIDapper.csproj": {
+    "/Users/jason_xu/Documents/Antra/Github/ASEP/week4/WebAPIDapper/WebAPIDapper/WebAPIDapper.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/jason_xu/Documents/Antra/workspace/week4/april19/WebAPIDapper/WebAPIDapper/WebAPIDapper.csproj",
+        "projectUniqueName": "/Users/jason_xu/Documents/Antra/Github/ASEP/week4/WebAPIDapper/WebAPIDapper/WebAPIDapper.csproj",
         "projectName": "WebAPIDapper",
-        "projectPath": "/Users/jason_xu/Documents/Antra/workspace/week4/april19/WebAPIDapper/WebAPIDapper/WebAPIDapper.csproj",
+        "projectPath": "/Users/jason_xu/Documents/Antra/Github/ASEP/week4/WebAPIDapper/WebAPIDapper/WebAPIDapper.csproj",
         "packagesPath": "/Users/jason_xu/.nuget/packages/",
-        "outputPath": "/Users/jason_xu/Documents/Antra/workspace/week4/april19/WebAPIDapper/WebAPIDapper/obj/",
+        "outputPath": "/Users/jason_xu/Documents/Antra/Github/ASEP/week4/WebAPIDapper/WebAPIDapper/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/jason_xu/.nuget/NuGet/NuGet.Config"
@@ -146,8 +146,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "/Users/jason_xu/Documents/Antra/workspace/week4/april19/WebAPIDapper/Infrastructure/Infrastructure.csproj": {
-                "projectPath": "/Users/jason_xu/Documents/Antra/workspace/week4/april19/WebAPIDapper/Infrastructure/Infrastructure.csproj"
+              "/Users/jason_xu/Documents/Antra/Github/ASEP/week4/WebAPIDapper/Infrastructure/Infrastructure.csproj": {
+                "projectPath": "/Users/jason_xu/Documents/Antra/Github/ASEP/week4/WebAPIDapper/Infrastructure/Infrastructure.csproj"
               }
             }
           }
@@ -186,7 +186,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.202/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.203/RuntimeIdentifierGraph.json"
         }
       }
     }

@@ -18,7 +18,7 @@ builder.Services.AddSwaggerGen();
 // builder.Services.AddSingleton<RecurtingDbContext>();
 
 builder.Services.AddScoped<ICandidateRepository, CandidateRepository>();
-builder.Services.AddScoped<CandidateService>();
+builder.Services.AddScoped<ICandidateService, CandidateService>();
 
 builder.Services.AddScoped<IJobRequirementRepository, JobRequirementRepository>();
 builder.Services.AddScoped<IJobRequirementService, JobRequirementService>();
@@ -32,9 +32,11 @@ builder.Services.AddScoped<IStatusService, StatusService>();
 builder.Services.AddScoped<IEmployeeTypeRepository, EmployeeTypeRepository>();
 builder.Services.AddScoped<IEmployeeTypeService, EmployeeTypeService>();
 
+
 builder.Services.AddDbContext<RecurtingDbContext>(options =>
 {
     // use UseQueryTrackingBehavior extension method to disable change tracking
+    // speed up the query of data from the database
     options.UseQueryTrackingBehavior(QueryTrackingBehavior.NoTracking);
     // use UseSqlServer extension method to add SQL Server provider, which we call the UseSqlServer method on the DbContextOptionsBuilder object and pass the connection string to it.
     options.UseSqlServer(builder.Configuration.GetConnectionString("RecruitingDb"));

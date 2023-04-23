@@ -1,5 +1,6 @@
 ﻿using System;
 using ApplicationCore.Contract.Repositories;
+using ApplicationCore.Contract.Services;
 using ApplicationCore.Entities;
 using ApplicationCore.Exceptions;
 using ApplicationCore.Models;
@@ -7,7 +8,7 @@ using Infrastructure.Helper;
 
 namespace Infrastructure.Services
 {
-	public class CandidateService
+	public class CandidateService : ICandidateService
 	{
         private readonly ICandidateRepository _candidateRepository;
         // CandidateRepository _candidateRepository;

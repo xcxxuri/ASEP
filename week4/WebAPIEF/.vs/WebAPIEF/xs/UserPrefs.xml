@@ -1,9 +1,9 @@
 ﻿<Properties StartupConfiguration="{DF35965E-C80D-4E5C-B06D-8DDB5D7CFAA1}|Default">
-  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
-  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.Workbench ActiveDocument="WebAPIEF/Controllers/CandidateController.cs">
     <Files>
       <File FileName="Infrastructure/Data/RecurtingDbContext.cs" />
@@ -15,8 +15,8 @@
       <File FileName="ApplicationCore/Models/CandidateResponseModel.cs" />
       <File FileName="Infrastructure/Repositories/BaseRepository.cs" />
       <File FileName="Infrastructure/Repositories/CandidateRepository.cs" />
-      <File FileName="Infrastructure/Services/CandidateService.cs" Line="25" Column="37" />
-      <File FileName="WebAPIEF/Controllers/CandidateController.cs" Line="26" Column="9" />
+      <File FileName="Infrastructure/Services/CandidateService.cs" />
+      <File FileName="WebAPIEF/Controllers/CandidateController.cs" Line="24" Column="1" />
       <File FileName="WebAPIEF/Program.cs" />
       <File FileName="ApplicationCore/Entities/Submission.cs" />
       <File FileName="ApplicationCore/Entities/Status.cs" />
@@ -53,13 +53,19 @@
       <File FileName="ApplicationCore/Models/SubmissionRequestModel.cs" />
       <File FileName="ApplicationCore/Models/SubmissionResponseModel.cs" />
       <File FileName="ApplicationCore/Exceptions/NotFoundException.cs" />
-      <File FileName="Infrastructure/Helper/ModelMapper.cs" Line="16" Column="47" />
-      <File FileName="WebAPIEF/Controllers/EmployeeTypeAPIController.cs" Line="21" Column="28" />
+      <File FileName="Infrastructure/Helper/ModelMapper.cs" />
+      <File FileName="WebAPIEF/Controllers/EmployeeTypeAPIController.cs" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="WebAPIEF" expanded="True">
+            <Node name="Infrastructure" expanded="True">
+              <Node name="Dependencies" expanded="True">
+                <Node name="PackageDependencies" expanded="True" />
+              </Node>
+              <Node name="Data" expanded="True" />
+            </Node>
             <Node name="WebAPIEF" expanded="True">
               <Node name="Controllers" expanded="True">
                 <Node name="CandidateController.cs" selected="True" />
@@ -70,6 +76,6 @@
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MultiItemStartupConfigurations />
   <MonoDevelop.Ide.ItemProperties.WebAPIEF PreferredExecutionTarget="/Applications/Google Chrome.app" />
 </Properties>

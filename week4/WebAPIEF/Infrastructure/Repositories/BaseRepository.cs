@@ -19,6 +19,7 @@ namespace Infrastructure.Repositories
             return await _ReDbContext.Set<T>().FindAsync(id);
         }
 
+
         public async Task<IEnumerable<T>> GetAllAsync()
         {
             return await _ReDbContext.Set<T>().ToListAsync();

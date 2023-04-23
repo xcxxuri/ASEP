@@ -6,7 +6,7 @@ using Microsoft.EntityFrameworkCore.Metadata.Builders;
 namespace Infrastructure.Data
 {
     public class RecurtingDbContext : DbContext
-    {
+    {   
         public RecurtingDbContext(DbContextOptions<RecurtingDbContext> option) : base(option)
         {
         }

@@ -1,0 +1,51 @@
+﻿<Properties StartupConfiguration="{B518C970-04F6-4DA2-BCD2-976F0D8A7880}|Default">
+  <MonoDevelop.Ide.ItemProperties.HRMInterview.InterviewAPI PreferredExecutionTarget="/Applications/Google Chrome.app" />
+  <MonoDevelop.Ide.ItemProperties.docker-compose PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.ItemProperties.HRMOnboarding.OnboardingAPI PreferredExecutionTarget="/Applications/Google Chrome.app" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.HRMAuthentication.AuthenticationAPI PreferredExecutionTarget="/Applications/Google Chrome.app" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.ItemProperties.HRMRecruiting.RecruitingAPI PreferredExecutionTarget="/Applications/Google Chrome.app" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="InterviewAPI/Program.cs">
+    <Files>
+      <File FileName="InterviewAPI/Dockerfile" />
+      <File FileName="InterviewAPI/Controllers/InterviewsController.cs" />
+      <File FileName="Interview.ApplicationCore/Entities/Interviewer.cs" />
+      <File FileName="InterviewAPI/Controllers/InterviewerController.cs" />
+      <File FileName="Interview.ApplicationCore/Entities/InterviewFeedback.cs" />
+      <File FileName="InterviewAPI/Controllers/InterviewFeedbackController.cs" />
+      <File FileName="Interview.ApplicationCore/Entities/Interviews.cs" />
+      <File FileName="Interview.ApplicationCore/Entities/InterviewType.cs" />
+      <File FileName="InterviewAPI/Controllers/InterviewTypeController.cs" />
+      <File FileName="Interview.ApplicationCore/Entities/Recruiter.cs" />
+      <File FileName="InterviewAPI/Controllers/RecruiterController.cs" />
+      <File FileName="InterviewAPI/Program.cs" Line="55" Column="1" />
+      <File FileName="Interview.Infrastructure/Data/InterviewDbContext.cs" Line="10" Column="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="MicroServiceLearningSolution" expanded="True">
+            <Node name="HRMInterview" expanded="True">
+              <Node name="Interview.ApplicationCore" expanded="True" />
+              <Node name="Interview.Infrastructure" expanded="True">
+                <Node name="Dependencies" expanded="True" />
+                <Node name="Data" expanded="True" />
+              </Node>
+              <Node name="InterviewAPI" expanded="True">
+                <Node name="Controllers" expanded="True" />
+                <Node name="Utility" expanded="True" />
+                <Node name="Program.cs" selected="True" />
+              </Node>
+            </Node>
+            <Node name="docker-compose" expanded="True" />
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MultiItemStartupConfigurations />
+</Properties>

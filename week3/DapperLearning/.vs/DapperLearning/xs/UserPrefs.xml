@@ -1,7 +1,5 @@
 ﻿<Properties StartupConfiguration="{92330F3F-E44F-4F84-AF93-D095634BCBFC}|Default">
-  <MultiItemStartupConfigurations />
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Infrastructure/Services/DepartmentService.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Infrastructure/Data/DapperDbContext.cs">
     <Files>
       <File FileName="DapperLearning/Program.cs" />
       <File FileName="ApplicationCore/Entities/Employees.cs" />
@@ -9,7 +7,7 @@
       <File FileName="ApplicationCore/Contracts/Repositories/IRepository.cs" />
       <File FileName="Infrastructure/Repositories/DepartmentRepository.cs" />
       <File FileName="Infrastructure/Repositories/EmployeeRepository.cs" />
-      <File FileName="Infrastructure/Data/DapperDbContext.cs" />
+      <File FileName="Infrastructure/Data/DapperDbContext.cs" Line="23" Column="3" />
       <File FileName="Infrastructure/Services/DepartmentService.cs" Line="27" Column="52" />
       <File FileName="Infrastructure/Services/EmployeeService.cs" />
       <File FileName="DapperLearning/Menu/Menu.cs" />
@@ -27,9 +25,11 @@
               <Node name="Dependencies" expanded="True" />
             </Node>
             <Node name="Infrastructure" expanded="True">
-              <Node name="Services" expanded="True">
-                <Node name="DepartmentService.cs" selected="True" />
+              <Node name="Dependencies" expanded="True" />
+              <Node name="Data" expanded="True">
+                <Node name="DapperDbContext.cs" selected="True" />
               </Node>
+              <Node name="Services" expanded="True" />
             </Node>
           </Node>
         </State>
@@ -37,6 +37,8 @@
     </Pads>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MultiItemStartupConfigurations />
   <MonoDevelop.Ide.ItemProperties.DapperLearning PreferredExecutionTarget="MonoDevelop.Default" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />

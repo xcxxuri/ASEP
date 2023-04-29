@@ -1,0 +1,14 @@
+/Users/jason_xu/Documents/Antra/workspace/week4/april21/MicroServiceLearningSolution/Authentication.ApplicationCore/bin/Debug/net6.0/Authentication.ApplicationCore.deps.json
+/Users/jason_xu/Documents/Antra/workspace/week4/april21/MicroServiceLearningSolution/Authentication.ApplicationCore/bin/Debug/net6.0/Authentication.ApplicationCore.runtimeconfig.json
+/Users/jason_xu/Documents/Antra/workspace/week4/april21/MicroServiceLearningSolution/Authentication.ApplicationCore/bin/Debug/net6.0/Authentication.ApplicationCore.dll
+/Users/jason_xu/Documents/Antra/workspace/week4/april21/MicroServiceLearningSolution/Authentication.ApplicationCore/bin/Debug/net6.0/Authentication.ApplicationCore.pdb
+/Users/jason_xu/Documents/Antra/workspace/week4/april21/MicroServiceLearningSolution/Authentication.ApplicationCore/obj/Debug/net6.0/Authentication.ApplicationCore.csproj.AssemblyReference.cache
+/Users/jason_xu/Documents/Antra/workspace/week4/april21/MicroServiceLearningSolution/Authentication.ApplicationCore/obj/Debug/net6.0/Authentication.ApplicationCore.GeneratedMSBuildEditorConfig.editorconfig
+/Users/jason_xu/Documents/Antra/workspace/week4/april21/MicroServiceLearningSolution/Authentication.ApplicationCore/obj/Debug/net6.0/Authentication.ApplicationCore.AssemblyInfoInputs.cache
+/Users/jason_xu/Documents/Antra/workspace/week4/april21/MicroServiceLearningSolution/Authentication.ApplicationCore/obj/Debug/net6.0/Authentication.ApplicationCore.AssemblyInfo.cs
+/Users/jason_xu/Documents/Antra/workspace/week4/april21/MicroServiceLearningSolution/Authentication.ApplicationCore/obj/Debug/net6.0/Authentication.ApplicationCore.csproj.CoreCompileInputs.cache
+/Users/jason_xu/Documents/Antra/workspace/week4/april21/MicroServiceLearningSolution/Authentication.ApplicationCore/obj/Debug/net6.0/Authentication.ApplicationCore.dll
+/Users/jason_xu/Documents/Antra/workspace/week4/april21/MicroServiceLearningSolution/Authentication.ApplicationCore/obj/Debug/net6.0/refint/Authentication.ApplicationCore.dll
+/Users/jason_xu/Documents/Antra/workspace/week4/april21/MicroServiceLearningSolution/Authentication.ApplicationCore/obj/Debug/net6.0/Authentication.ApplicationCore.pdb
+/Users/jason_xu/Documents/Antra/workspace/week4/april21/MicroServiceLearningSolution/Authentication.ApplicationCore/obj/Debug/net6.0/Authentication.ApplicationCore.genruntimeconfig.cache
+/Users/jason_xu/Documents/Antra/workspace/week4/april21/MicroServiceLearningSolution/Authentication.ApplicationCore/obj/Debug/net6.0/ref/Authentication.ApplicationCore.dll

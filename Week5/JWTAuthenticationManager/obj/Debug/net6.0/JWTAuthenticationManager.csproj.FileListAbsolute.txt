@@ -1,0 +1,12 @@
+/Users/jason_xu/Documents/Antra/workspace/week4/april21/JWTAuthenticationManager/bin/Debug/net6.0/JWTAuthenticationManager.deps.json
+/Users/jason_xu/Documents/Antra/workspace/week4/april21/JWTAuthenticationManager/bin/Debug/net6.0/JWTAuthenticationManager.dll
+/Users/jason_xu/Documents/Antra/workspace/week4/april21/JWTAuthenticationManager/bin/Debug/net6.0/JWTAuthenticationManager.pdb
+/Users/jason_xu/Documents/Antra/workspace/week4/april21/JWTAuthenticationManager/obj/Debug/net6.0/JWTAuthenticationManager.csproj.AssemblyReference.cache
+/Users/jason_xu/Documents/Antra/workspace/week4/april21/JWTAuthenticationManager/obj/Debug/net6.0/JWTAuthenticationManager.GeneratedMSBuildEditorConfig.editorconfig
+/Users/jason_xu/Documents/Antra/workspace/week4/april21/JWTAuthenticationManager/obj/Debug/net6.0/JWTAuthenticationManager.AssemblyInfoInputs.cache
+/Users/jason_xu/Documents/Antra/workspace/week4/april21/JWTAuthenticationManager/obj/Debug/net6.0/JWTAuthenticationManager.AssemblyInfo.cs
+/Users/jason_xu/Documents/Antra/workspace/week4/april21/JWTAuthenticationManager/obj/Debug/net6.0/JWTAuthenticationManager.csproj.CoreCompileInputs.cache
+/Users/jason_xu/Documents/Antra/workspace/week4/april21/JWTAuthenticationManager/obj/Debug/net6.0/JWTAuthenticationManager.dll
+/Users/jason_xu/Documents/Antra/workspace/week4/april21/JWTAuthenticationManager/obj/Debug/net6.0/refint/JWTAuthenticationManager.dll
+/Users/jason_xu/Documents/Antra/workspace/week4/april21/JWTAuthenticationManager/obj/Debug/net6.0/JWTAuthenticationManager.pdb
+/Users/jason_xu/Documents/Antra/workspace/week4/april21/JWTAuthenticationManager/obj/Debug/net6.0/ref/JWTAuthenticationManager.dll

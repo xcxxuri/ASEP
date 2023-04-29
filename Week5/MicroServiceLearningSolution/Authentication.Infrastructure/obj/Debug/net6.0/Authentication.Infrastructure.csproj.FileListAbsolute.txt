@@ -1,0 +1,17 @@
+/Users/jason_xu/Documents/Antra/workspace/week4/april21/MicroServiceLearningSolution/Authentication.Infrastructure/bin/Debug/net6.0/Authentication.Infrastructure.deps.json
+/Users/jason_xu/Documents/Antra/workspace/week4/april21/MicroServiceLearningSolution/Authentication.Infrastructure/bin/Debug/net6.0/Authentication.Infrastructure.runtimeconfig.json
+/Users/jason_xu/Documents/Antra/workspace/week4/april21/MicroServiceLearningSolution/Authentication.Infrastructure/bin/Debug/net6.0/Authentication.Infrastructure.dll
+/Users/jason_xu/Documents/Antra/workspace/week4/april21/MicroServiceLearningSolution/Authentication.Infrastructure/bin/Debug/net6.0/Authentication.Infrastructure.pdb
+/Users/jason_xu/Documents/Antra/workspace/week4/april21/MicroServiceLearningSolution/Authentication.Infrastructure/bin/Debug/net6.0/Authentication.ApplicationCore.dll
+/Users/jason_xu/Documents/Antra/workspace/week4/april21/MicroServiceLearningSolution/Authentication.Infrastructure/bin/Debug/net6.0/Authentication.ApplicationCore.pdb
+/Users/jason_xu/Documents/Antra/workspace/week4/april21/MicroServiceLearningSolution/Authentication.Infrastructure/obj/Debug/net6.0/Authentication.Infrastructure.csproj.AssemblyReference.cache
+/Users/jason_xu/Documents/Antra/workspace/week4/april21/MicroServiceLearningSolution/Authentication.Infrastructure/obj/Debug/net6.0/Authentication.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+/Users/jason_xu/Documents/Antra/workspace/week4/april21/MicroServiceLearningSolution/Authentication.Infrastructure/obj/Debug/net6.0/Authentication.Infrastructure.AssemblyInfoInputs.cache
+/Users/jason_xu/Documents/Antra/workspace/week4/april21/MicroServiceLearningSolution/Authentication.Infrastructure/obj/Debug/net6.0/Authentication.Infrastructure.AssemblyInfo.cs
+/Users/jason_xu/Documents/Antra/workspace/week4/april21/MicroServiceLearningSolution/Authentication.Infrastructure/obj/Debug/net6.0/Authentication.Infrastructure.csproj.CoreCompileInputs.cache
+/Users/jason_xu/Documents/Antra/workspace/week4/april21/MicroServiceLearningSolution/Authentication.Infrastructure/obj/Debug/net6.0/Authentication.Infrastructure.csproj.CopyComplete
+/Users/jason_xu/Documents/Antra/workspace/week4/april21/MicroServiceLearningSolution/Authentication.Infrastructure/obj/Debug/net6.0/Authentication.Infrastructure.dll
+/Users/jason_xu/Documents/Antra/workspace/week4/april21/MicroServiceLearningSolution/Authentication.Infrastructure/obj/Debug/net6.0/refint/Authentication.Infrastructure.dll
+/Users/jason_xu/Documents/Antra/workspace/week4/april21/MicroServiceLearningSolution/Authentication.Infrastructure/obj/Debug/net6.0/Authentication.Infrastructure.pdb
+/Users/jason_xu/Documents/Antra/workspace/week4/april21/MicroServiceLearningSolution/Authentication.Infrastructure/obj/Debug/net6.0/Authentication.Infrastructure.genruntimeconfig.cache
+/Users/jason_xu/Documents/Antra/workspace/week4/april21/MicroServiceLearningSolution/Authentication.Infrastructure/obj/Debug/net6.0/ref/Authentication.Infrastructure.dll

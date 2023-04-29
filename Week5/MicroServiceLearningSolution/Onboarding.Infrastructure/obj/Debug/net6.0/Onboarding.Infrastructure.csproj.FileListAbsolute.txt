@@ -1,0 +1,17 @@
+/Users/jason_xu/Documents/Antra/workspace/week4/april21/MicroServiceLearningSolution/Onboarding.Infrastructure/bin/Debug/net6.0/Onboarding.Infrastructure.deps.json
+/Users/jason_xu/Documents/Antra/workspace/week4/april21/MicroServiceLearningSolution/Onboarding.Infrastructure/bin/Debug/net6.0/Onboarding.Infrastructure.runtimeconfig.json
+/Users/jason_xu/Documents/Antra/workspace/week4/april21/MicroServiceLearningSolution/Onboarding.Infrastructure/bin/Debug/net6.0/Onboarding.Infrastructure.dll
+/Users/jason_xu/Documents/Antra/workspace/week4/april21/MicroServiceLearningSolution/Onboarding.Infrastructure/bin/Debug/net6.0/Onboarding.Infrastructure.pdb
+/Users/jason_xu/Documents/Antra/workspace/week4/april21/MicroServiceLearningSolution/Onboarding.Infrastructure/bin/Debug/net6.0/Onboarding.ApplicationCore.dll
+/Users/jason_xu/Documents/Antra/workspace/week4/april21/MicroServiceLearningSolution/Onboarding.Infrastructure/bin/Debug/net6.0/Onboarding.ApplicationCore.pdb
+/Users/jason_xu/Documents/Antra/workspace/week4/april21/MicroServiceLearningSolution/Onboarding.Infrastructure/obj/Debug/net6.0/Onboarding.Infrastructure.csproj.AssemblyReference.cache
+/Users/jason_xu/Documents/Antra/workspace/week4/april21/MicroServiceLearningSolution/Onboarding.Infrastructure/obj/Debug/net6.0/Onboarding.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+/Users/jason_xu/Documents/Antra/workspace/week4/april21/MicroServiceLearningSolution/Onboarding.Infrastructure/obj/Debug/net6.0/Onboarding.Infrastructure.AssemblyInfoInputs.cache
+/Users/jason_xu/Documents/Antra/workspace/week4/april21/MicroServiceLearningSolution/Onboarding.Infrastructure/obj/Debug/net6.0/Onboarding.Infrastructure.AssemblyInfo.cs
+/Users/jason_xu/Documents/Antra/workspace/week4/april21/MicroServiceLearningSolution/Onboarding.Infrastructure/obj/Debug/net6.0/Onboarding.Infrastructure.csproj.CoreCompileInputs.cache
+/Users/jason_xu/Documents/Antra/workspace/week4/april21/MicroServiceLearningSolution/Onboarding.Infrastructure/obj/Debug/net6.0/Onboarding.Infrastructure.csproj.CopyComplete
+/Users/jason_xu/Documents/Antra/workspace/week4/april21/MicroServiceLearningSolution/Onboarding.Infrastructure/obj/Debug/net6.0/Onboarding.Infrastructure.dll
+/Users/jason_xu/Documents/Antra/workspace/week4/april21/MicroServiceLearningSolution/Onboarding.Infrastructure/obj/Debug/net6.0/refint/Onboarding.Infrastructure.dll
+/Users/jason_xu/Documents/Antra/workspace/week4/april21/MicroServiceLearningSolution/Onboarding.Infrastructure/obj/Debug/net6.0/Onboarding.Infrastructure.pdb
+/Users/jason_xu/Documents/Antra/workspace/week4/april21/MicroServiceLearningSolution/Onboarding.Infrastructure/obj/Debug/net6.0/Onboarding.Infrastructure.genruntimeconfig.cache
+/Users/jason_xu/Documents/Antra/workspace/week4/april21/MicroServiceLearningSolution/Onboarding.Infrastructure/obj/Debug/net6.0/ref/Onboarding.Infrastructure.dll

@@ -1,0 +1,113 @@
+name: dockercompose14356204247867719465
+services:
+  onboardingapi:
+    build:
+      context: /Users/jason_xu/Documents/Antra/workspace/week4/april21/MicroServiceLearningSolution
+      dockerfile: OnboardingAPI/Dockerfile
+      labels:
+        com.microsoft.created-by: visual-studio
+        com.microsoft.visual-studio.project-name: OnboardingAPI
+      target: base
+    container_name: OnboardingAPI
+    entrypoint:
+    - tail
+    - -f
+    - /dev/null
+    environment:
+      ASPNETCORE_ENVIRONMENT: Development
+      ASPNETCORE_LOGGING__CONSOLE__DISABLECOLORS: "true"
+      DOTNET_USE_POLLING_FILE_WATCHER: "1"
+      NUGET_FALLBACK_PACKAGES: ""
+    image: onboardingapi:dev
+    labels:
+      com.microsoft.visualstudio.debuggee.arguments: ' --additionalProbingPath /root/.nuget/packages  "/app/bin/Debug/net6.0/OnboardingAPI.dll"'
+      com.microsoft.visualstudio.debuggee.killprogram: /bin/sh -c "if PID=$$(pidof
+        dotnet); then kill $$PID; fi"
+      com.microsoft.visualstudio.debuggee.program: dotnet
+      com.microsoft.visualstudio.debuggee.workingdirectory: /app
+    networks:
+      default: null
+    ports:
+    - mode: ingress
+      target: 80
+      protocol: tcp
+    tty: true
+    volumes:
+    - type: bind
+      source: /Users/jason_xu/Documents/Antra/workspace/week4/april21/MicroServiceLearningSolution/OnboardingAPI
+      target: /app
+      bind:
+        create_host_path: true
+    - type: bind
+      source: /Users/jason_xu/Documents/Antra/workspace/week4/april21/MicroServiceLearningSolution
+      target: /src
+      bind:
+        create_host_path: true
+    - type: bind
+      source: /Users/jason_xu/vsdbg/vs2017u5
+      target: /remote_debugger
+      bind:
+        create_host_path: true
+    - type: bind
+      source: /Users/jason_xu/.nuget/packages/
+      target: /root/.nuget/packages
+      read_only: true
+      bind:
+        create_host_path: true
+  recruitingapi:
+    build:
+      context: /Users/jason_xu/Documents/Antra/workspace/week4/april21/MicroServiceLearningSolution
+      dockerfile: RecruitingAPI/Dockerfile
+      labels:
+        com.microsoft.created-by: visual-studio
+        com.microsoft.visual-studio.project-name: RecruitingAPI
+      target: base
+    container_name: RecruitingAPI
+    entrypoint:
+    - tail
+    - -f
+    - /dev/null
+    environment:
+      ASPNETCORE_ENVIRONMENT: Development
+      ASPNETCORE_LOGGING__CONSOLE__DISABLECOLORS: "true"
+      DOTNET_USE_POLLING_FILE_WATCHER: "1"
+      NUGET_FALLBACK_PACKAGES: ""
+    image: recruitingapi:dev
+    labels:
+      com.microsoft.visualstudio.debuggee.arguments: ' --additionalProbingPath /root/.nuget/packages  "/app/bin/Debug/net6.0/RecruitingAPI.dll"'
+      com.microsoft.visualstudio.debuggee.killprogram: /bin/sh -c "if PID=$$(pidof
+        dotnet); then kill $$PID; fi"
+      com.microsoft.visualstudio.debuggee.program: dotnet
+      com.microsoft.visualstudio.debuggee.workingdirectory: /app
+    networks:
+      default: null
+    ports:
+    - mode: ingress
+      target: 80
+      protocol: tcp
+    tty: true
+    volumes:
+    - type: bind
+      source: /Users/jason_xu/Documents/Antra/workspace/week4/april21/MicroServiceLearningSolution/RecruitingAPI
+      target: /app
+      bind:
+        create_host_path: true
+    - type: bind
+      source: /Users/jason_xu/Documents/Antra/workspace/week4/april21/MicroServiceLearningSolution
+      target: /src
+      bind:
+        create_host_path: true
+    - type: bind
+      source: /Users/jason_xu/vsdbg/vs2017u5
+      target: /remote_debugger
+      bind:
+        create_host_path: true
+    - type: bind
+      source: /Users/jason_xu/.nuget/packages/
+      target: /root/.nuget/packages
+      read_only: true
+      bind:
+        create_host_path: true
+networks:
+  default:
+    name: dockercompose14356204247867719465_default

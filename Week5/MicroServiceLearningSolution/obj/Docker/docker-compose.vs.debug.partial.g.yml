@@ -1,0 +1,105 @@
+version: '3.4'
+
+services:
+  authenticationapi:
+    image: authenticationapi:dev
+    container_name: AuthenticationAPI
+    build:
+      target: base
+      labels:
+        com.microsoft.created-by: "visual-studio"
+        com.microsoft.visual-studio.project-name: "AuthenticationAPI"
+    environment:
+      - DOTNET_USE_POLLING_FILE_WATCHER=1
+      - ASPNETCORE_LOGGING__CONSOLE__DISABLECOLORS=true
+      - NUGET_FALLBACK_PACKAGES=
+    volumes:
+      - /Users/jason_xu/Documents/Antra/workspace/week4/april21/MicroServiceLearningSolution/AuthenticationAPI:/app
+      - /Users/jason_xu/Documents/Antra/workspace/week4/april21/MicroServiceLearningSolution:/src
+      - /Users/jason_xu/vsdbg/vs2017u5:/remote_debugger:rw
+      - /Users/jason_xu/.nuget/packages/:/root/.nuget/packages:ro
+
+    entrypoint: tail -f /dev/null
+    labels:
+      com.microsoft.visualstudio.debuggee.program: "dotnet"
+      com.microsoft.visualstudio.debuggee.arguments: " --additionalProbingPath /root/.nuget/packages  \"/app/bin/Debug/net6.0/AuthenticationAPI.dll\""
+      com.microsoft.visualstudio.debuggee.workingdirectory: "/app"
+      com.microsoft.visualstudio.debuggee.killprogram: "/bin/sh -c \"if PID=$$(pidof dotnet); then kill $$PID; fi\""
+    tty: true
+  interviewapi:
+    image: interviewapi:dev
+    container_name: InterviewAPI
+    build:
+      target: base
+      labels:
+        com.microsoft.created-by: "visual-studio"
+        com.microsoft.visual-studio.project-name: "InterviewAPI"
+    environment:
+      - DOTNET_USE_POLLING_FILE_WATCHER=1
+      - ASPNETCORE_LOGGING__CONSOLE__DISABLECOLORS=true
+      - NUGET_FALLBACK_PACKAGES=
+    volumes:
+      - /Users/jason_xu/Documents/Antra/workspace/week4/april21/MicroServiceLearningSolution/InterviewAPI:/app
+      - /Users/jason_xu/Documents/Antra/workspace/week4/april21/MicroServiceLearningSolution:/src
+      - /Users/jason_xu/vsdbg/vs2017u5:/remote_debugger:rw
+      - /Users/jason_xu/.nuget/packages/:/root/.nuget/packages:ro
+
+    entrypoint: tail -f /dev/null
+    labels:
+      com.microsoft.visualstudio.debuggee.program: "dotnet"
+      com.microsoft.visualstudio.debuggee.arguments: " --additionalProbingPath /root/.nuget/packages  \"/app/bin/Debug/net6.0/InterviewAPI.dll\""
+      com.microsoft.visualstudio.debuggee.workingdirectory: "/app"
+      com.microsoft.visualstudio.debuggee.killprogram: "/bin/sh -c \"if PID=$$(pidof dotnet); then kill $$PID; fi\""
+    tty: true
+
+  onboardingapi:
+    image: onboardingapi:dev
+    container_name: OnboardingAPI
+    build:
+      target: base
+      labels:
+        com.microsoft.created-by: "visual-studio"
+        com.microsoft.visual-studio.project-name: "OnboardingAPI"
+    environment:
+      - DOTNET_USE_POLLING_FILE_WATCHER=1
+      - ASPNETCORE_LOGGING__CONSOLE__DISABLECOLORS=true
+      - NUGET_FALLBACK_PACKAGES=
+    volumes:
+      - /Users/jason_xu/Documents/Antra/workspace/week4/april21/MicroServiceLearningSolution/OnboardingAPI:/app
+      - /Users/jason_xu/Documents/Antra/workspace/week4/april21/MicroServiceLearningSolution:/src
+      - /Users/jason_xu/vsdbg/vs2017u5:/remote_debugger:rw
+      - /Users/jason_xu/.nuget/packages/:/root/.nuget/packages:ro
+
+    entrypoint: tail -f /dev/null
+    labels:
+      com.microsoft.visualstudio.debuggee.program: "dotnet"
+      com.microsoft.visualstudio.debuggee.arguments: " --additionalProbingPath /root/.nuget/packages  \"/app/bin/Debug/net6.0/OnboardingAPI.dll\""
+      com.microsoft.visualstudio.debuggee.workingdirectory: "/app"
+      com.microsoft.visualstudio.debuggee.killprogram: "/bin/sh -c \"if PID=$$(pidof dotnet); then kill $$PID; fi\""
+    tty: true
+
+  recruitingapi:
+    image: recruitingapi:dev
+    container_name: RecruitingAPI
+    build:
+      target: base
+      labels:
+        com.microsoft.created-by: "visual-studio"
+        com.microsoft.visual-studio.project-name: "RecruitingAPI"
+    environment:
+      - DOTNET_USE_POLLING_FILE_WATCHER=1
+      - ASPNETCORE_LOGGING__CONSOLE__DISABLECOLORS=true
+      - NUGET_FALLBACK_PACKAGES=
+    volumes:
+      - /Users/jason_xu/Documents/Antra/workspace/week4/april21/MicroServiceLearningSolution/RecruitingAPI:/app
+      - /Users/jason_xu/Documents/Antra/workspace/week4/april21/MicroServiceLearningSolution:/src
+      - /Users/jason_xu/vsdbg/vs2017u5:/remote_debugger:rw
+      - /Users/jason_xu/.nuget/packages/:/root/.nuget/packages:ro
+
+    entrypoint: tail -f /dev/null
+    labels:
+      com.microsoft.visualstudio.debuggee.program: "dotnet"
+      com.microsoft.visualstudio.debuggee.arguments: " --additionalProbingPath /root/.nuget/packages  \"/app/bin/Debug/net6.0/RecruitingAPI.dll\""
+      com.microsoft.visualstudio.debuggee.workingdirectory: "/app"
+      com.microsoft.visualstudio.debuggee.killprogram: "/bin/sh -c \"if PID=$$(pidof dotnet); then kill $$PID; fi\""
+    tty: true

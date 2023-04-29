@@ -8,4 +8,4 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = Authentication.Infrastructure
-build_property.ProjectDir = /Users/jason_xu/Documents/Antra/workspace/week4/april21/MicroServiceLearningSolution/Authentication.Infrastructure/
+build_property.ProjectDir = /Users/jason_xu/Documents/Antra/Github/ASEP/Week5/MicroServiceLearningSolution/Authentication.Infrastructure/

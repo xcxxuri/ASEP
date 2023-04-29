@@ -56,7 +56,7 @@ namespace AuthenticationAPI.Controllers
 
 
         [HttpPost("Login")]
-        public async Task<IActionResult> Login(AuthenticationRequest request)
+        public async Task<IActionResult> Login([FromBody] AuthenticationRequest request)
         {
             var response = _jwtTokenHandler.GenerateToken(request);
             if (response == null)

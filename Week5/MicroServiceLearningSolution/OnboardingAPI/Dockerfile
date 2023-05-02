@@ -3,7 +3,7 @@
 FROM mcr.microsoft.com/dotnet/aspnet:6.0 AS base
 WORKDIR /app
 EXPOSE 80
-ENV OnboardingAPIDb "Server=100.64.1.21,1433;Database=OnboardingAPIDb;Trusted_Connection=false;TrustServerCertificate=True;User Id=sa;Password=Pa\$\$w0rd2019;"
+ENV OnboardingAPIDb "Server=,1433;Database=OnboardingAPIDb;Trusted_Connection=false;TrustServerCertificate=True;User Id=sa;Password=Pa\$\$w0rd2019;"
 
 FROM mcr.microsoft.com/dotnet/sdk:6.0 AS build
 WORKDIR /src

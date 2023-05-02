@@ -72,6 +72,7 @@ if (app.Environment.IsDevelopment())
     app.UseSwaggerUI();
     app.UseMiddlewareExtension();
 }
+
 app.UseAuthentication();
 app.UseCors();
 

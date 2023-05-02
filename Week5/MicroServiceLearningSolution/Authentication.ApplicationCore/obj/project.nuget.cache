@@ -1,10 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "12AWs8Th4KtCwRNBAOD9NtmDUFtzE/kHS5pfw5p5cbDNlziwUugf9m1aOl2/zcKVB5ewS+tP9xj36fGL2Mio2w==",
+  "dgSpecHash": "ZKoiiXPckZ0NDCnqlimjgy94vCYydYokcKbt4N28YhVwz7E0hFZ0lyikEsgJylZAAQlKCmNzJ0U+ncA9u/mgqg==",
   "success": true,
   "projectFilePath": "/Users/jason_xu/Documents/Antra/workspace/week4/april21/MicroServiceLearningSolution/Authentication.ApplicationCore/Authentication.ApplicationCore.csproj",
   "expectedPackageFiles": [
     "/Users/jason_xu/.nuget/packages/humanizer.core/2.14.1/humanizer.core.2.14.1.nupkg.sha512",
+    "/Users/jason_xu/.nuget/packages/microsoft.aspnetcore.cryptography.internal/6.0.16/microsoft.aspnetcore.cryptography.internal.6.0.16.nupkg.sha512",
+    "/Users/jason_xu/.nuget/packages/microsoft.aspnetcore.cryptography.keyderivation/6.0.16/microsoft.aspnetcore.cryptography.keyderivation.6.0.16.nupkg.sha512",
+    "/Users/jason_xu/.nuget/packages/microsoft.aspnetcore.identity.entityframeworkcore/6.0.16/microsoft.aspnetcore.identity.entityframeworkcore.6.0.16.nupkg.sha512",
     "/Users/jason_xu/.nuget/packages/microsoft.entityframeworkcore/7.0.5/microsoft.entityframeworkcore.7.0.5.nupkg.sha512",
     "/Users/jason_xu/.nuget/packages/microsoft.entityframeworkcore.abstractions/7.0.5/microsoft.entityframeworkcore.abstractions.7.0.5.nupkg.sha512",
     "/Users/jason_xu/.nuget/packages/microsoft.entityframeworkcore.analyzers/7.0.5/microsoft.entityframeworkcore.analyzers.7.0.5.nupkg.sha512",
@@ -16,6 +19,8 @@
     "/Users/jason_xu/.nuget/packages/microsoft.extensions.dependencyinjection/7.0.0/microsoft.extensions.dependencyinjection.7.0.0.nupkg.sha512",
     "/Users/jason_xu/.nuget/packages/microsoft.extensions.dependencyinjection.abstractions/7.0.0/microsoft.extensions.dependencyinjection.abstractions.7.0.0.nupkg.sha512",
     "/Users/jason_xu/.nuget/packages/microsoft.extensions.dependencymodel/7.0.0/microsoft.extensions.dependencymodel.7.0.0.nupkg.sha512",
+    "/Users/jason_xu/.nuget/packages/microsoft.extensions.identity.core/6.0.16/microsoft.extensions.identity.core.6.0.16.nupkg.sha512",
+    "/Users/jason_xu/.nuget/packages/microsoft.extensions.identity.stores/6.0.16/microsoft.extensions.identity.stores.6.0.16.nupkg.sha512",
     "/Users/jason_xu/.nuget/packages/microsoft.extensions.logging/7.0.0/microsoft.extensions.logging.7.0.0.nupkg.sha512",
     "/Users/jason_xu/.nuget/packages/microsoft.extensions.logging.abstractions/7.0.0/microsoft.extensions.logging.abstractions.7.0.0.nupkg.sha512",
     "/Users/jason_xu/.nuget/packages/microsoft.extensions.options/7.0.0/microsoft.extensions.options.7.0.0.nupkg.sha512",

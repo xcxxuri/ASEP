@@ -14,18 +14,21 @@ namespace JWTAuthenticationManager
         public const string JWT_Secret_Key = "G-KaPdSgVkYp3s6v9y/B?E(H+MbQeThWmZq4t7w!z%C&F)J@NcRfUjXn2r5u8x/A";
         private const int JWT_Token_Validty_Min = 20;
 
-        private readonly List<UserAccount> userAccounts;
+        // private readonly List<UserAccount> userAccounts;
 
         public JwtTokenHandler()
         {
+            /*
             userAccounts = new List<UserAccount>(){
                 new UserAccount(){Username="admin", Password="admin@123", Role="Admin"},
                 new UserAccount(){Username="user", Password="user@123", Role="User"}
             };
+            */
         }
 
-        public AuthenticationResponse GenerateToken(AuthenticationRequest request)
+        public AuthenticationResponse GenerateToken(AuthenticationRequest request, string role)
         {
+            /*
             // check if request is null
             if (string.IsNullOrEmpty(request.Username) || string.IsNullOrEmpty(request.Password))
             {
@@ -39,6 +42,7 @@ namespace JWTAuthenticationManager
             {
                 return null;
             }
+            */
 
 
             // start working on JWT token 
@@ -50,7 +54,7 @@ namespace JWTAuthenticationManager
             // the perpuse of claims is to sent some additional data 
             var claimsIdentity = new ClaimsIdentity(new List<Claim>{
                 new Claim(JwtRegisteredClaimNames.Name, request.Username),
-                new Claim(ClaimTypes.Role, result.Role)
+                new Claim(ClaimTypes.Role, role)
             });
             // signingCredentials is to set the key and algorithm to encrypt the token
             var signingCredentials = new SigningCredentials(
@@ -74,7 +78,7 @@ namespace JWTAuthenticationManager
             {
                 Token = token,
                 ExpiresIn = (int)tokenExpiryTime.Subtract(DateTime.Now).TotalSeconds,
-                Username = result.Username,
+                Username = request.Username,
             };
         }
 

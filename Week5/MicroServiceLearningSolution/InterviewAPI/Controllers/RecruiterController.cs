@@ -4,6 +4,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using Interview.ApplicationCore.Contract.Services;
 using Interview.ApplicationCore.Models;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 
 // For more information on enabling Web API for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
@@ -11,6 +12,7 @@ using Microsoft.AspNetCore.Mvc;
 namespace InterviewAPI.Controllers
 {
     [Route("api/[controller]")]
+    [Authorize(Roles = "admin,user")]
     public class RecruiterController : ControllerBase
     {
         private readonly IRecruiterServiceAsync _recruiterService;

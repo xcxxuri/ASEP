@@ -1,4 +1,5 @@
-﻿using Microsoft.EntityFrameworkCore;
+﻿using JWTAuthenticationManager;
+using Microsoft.EntityFrameworkCore;
 using Onboarding.ApplicationCore.Contract.Repositories;
 using Onboarding.ApplicationCore.Contract.Services;
 using Onboarding.Infrastructure.Data;
@@ -12,13 +13,12 @@ var builder = WebApplication.CreateBuilder(args);
 
 // Add CORS
 builder.Services.AddCors(options =>
-{   
-    options.AddDefaultPolicy( policy =>
+{
+    options.AddDefaultPolicy(policy =>
     {
         policy.AllowAnyOrigin()
             .AllowAnyMethod()
             .AllowAnyHeader();
-     
     });
 });
 
@@ -42,6 +42,10 @@ builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
+// JWT Token Service Injection
+builder.Services.AddCustomJwtTokenService();
+
+
 // Repository Injection
 builder.Services.AddScoped<IEmployeeRepositoryAsync, EmployeeRepositoryAsync>();
 builder.Services.AddScoped<IEmployeeCategoryRepositoryAsync, EmployeeCategoryRepositoryAsync>();
@@ -64,10 +68,13 @@ if (app.Environment.IsDevelopment())
     app.UseMiddlewareExtension();
 }
 
+
+app.UseAuthentication();
+app.UseRouting();
 app.UseAuthorization();
 app.UseCors();
-
 app.MapControllers();
+
 
 app.Run();
 

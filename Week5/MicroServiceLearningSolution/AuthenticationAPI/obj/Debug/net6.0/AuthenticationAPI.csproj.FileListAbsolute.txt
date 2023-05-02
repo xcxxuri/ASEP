@@ -98,3 +98,8 @@
 /Users/jason_xu/Documents/Antra/workspace/week4/april21/MicroServiceLearningSolution/AuthenticationAPI/bin/Debug/net6.0/Microsoft.AspNetCore.Authentication.JwtBearer.dll
 /Users/jason_xu/Documents/Antra/workspace/week4/april21/MicroServiceLearningSolution/AuthenticationAPI/bin/Debug/net6.0/JWTAuthenticationManager.dll
 /Users/jason_xu/Documents/Antra/workspace/week4/april21/MicroServiceLearningSolution/AuthenticationAPI/bin/Debug/net6.0/JWTAuthenticationManager.pdb
+/Users/jason_xu/Documents/Antra/workspace/week4/april21/MicroServiceLearningSolution/AuthenticationAPI/bin/Debug/net6.0/Microsoft.AspNetCore.Cryptography.Internal.dll
+/Users/jason_xu/Documents/Antra/workspace/week4/april21/MicroServiceLearningSolution/AuthenticationAPI/bin/Debug/net6.0/Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+/Users/jason_xu/Documents/Antra/workspace/week4/april21/MicroServiceLearningSolution/AuthenticationAPI/bin/Debug/net6.0/Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+/Users/jason_xu/Documents/Antra/workspace/week4/april21/MicroServiceLearningSolution/AuthenticationAPI/bin/Debug/net6.0/Microsoft.Extensions.Identity.Core.dll
+/Users/jason_xu/Documents/Antra/workspace/week4/april21/MicroServiceLearningSolution/AuthenticationAPI/bin/Debug/net6.0/Microsoft.Extensions.Identity.Stores.dll

@@ -6,6 +6,8 @@ using Authentication.Infrastructure.Service;
 using Authentication.ApplicationCore.Contract.Repositories;
 using Authentication.ApplicationCore.Contract.Services;
 using JWTAuthenticationManager;
+using Authentication.ApplicationCore.Models;
+using Microsoft.AspNetCore.Identity;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -42,11 +44,18 @@ builder.Services.AddDbContext<AuthenticationDbContext>(option =>
     option.UseQueryTrackingBehavior(QueryTrackingBehavior.NoTracking);
 });
 
+// Add Identity   
+builder.Services.AddIdentity<ApplicationUser, IdentityRole>()
+    .AddEntityFrameworkStores<AuthenticationDbContext>()
+    .AddDefaultTokenProviders();
+
+    
 
 // Repository Injection
 builder.Services.AddScoped<IUserRoleRepositoryAsync, UserRoleRepositoryAsync>();
 builder.Services.AddScoped<IAccountRepositoryAsync, AccountRepositoryAsync>();
 builder.Services.AddScoped<IRoleRepositoryAsync, RoleRepositoryAsync>();
+builder.Services.AddScoped<IAuthenticationRepositoryAsync, AuthenticationRepositoryAsync>();
 
 // Add JWT Token Service
 builder.Services.AddSingleton<JwtTokenHandler>();
@@ -55,6 +64,7 @@ builder.Services.AddSingleton<JwtTokenHandler>();
 builder.Services.AddScoped<IUserRoleServiceAsync, UserRoleServiceAsync>();
 builder.Services.AddScoped<IAccountServiceAsync, AccountServiceAsync>();
 builder.Services.AddScoped<IRoleServiceAsync, RoleServiceAsync>();
+builder.Services.AddScoped<IAuthenticationServiceAsync, AuthenticationServiceAsync>();
 
 var app = builder.Build();
 

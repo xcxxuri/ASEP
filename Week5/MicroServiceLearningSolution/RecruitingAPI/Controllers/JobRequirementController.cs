@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Recruiting.ApplicationCore.Contract.Services;
 using Recruiting.ApplicationCore.Models;
@@ -22,6 +23,7 @@ namespace RecruitingAPI.Controllers
 
         // GET: api/values
         [HttpGet("GetAllJobRequirement")]
+        [Authorize(Roles = "admin,user")]
         public async Task<IActionResult> GetAllJobRequirement()
         {
             return Ok(await _jobRequirementService.GetAllJobRequirementAsync());

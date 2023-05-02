@@ -1,40 +1,35 @@
 ﻿<Properties StartupConfiguration="{B518C970-04F6-4DA2-BCD2-976F0D8A7880}|Default">
-  <MonoDevelop.Ide.ItemProperties.HRMInterview.InterviewAPI PreferredExecutionTarget="/Applications/Google Chrome.app" />
-  <MonoDevelop.Ide.ItemProperties.docker-compose PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.ItemProperties.HRMOnboarding.OnboardingAPI PreferredExecutionTarget="/Applications/Google Chrome.app" />
-  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
-  <MonoDevelop.Ide.ItemProperties.HRMAuthentication.AuthenticationAPI PreferredExecutionTarget="/Applications/Google Chrome.app" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.ItemProperties.HRMRecruiting.RecruitingAPI PreferredExecutionTarget="/Applications/Google Chrome.app" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="../JWTAuthenticationManager/JWTTokenExtension.cs">
+  <MonoDevelop.Ide.ItemProperties.docker-compose PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.ItemProperties.HRMOnboarding.OnboardingAPI PreferredExecutionTarget="/Applications/Google Chrome.app" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Authentication.ApplicationCore/Models/LoginModel.cs">
     <Files>
-      <File FileName="../JWTAuthenticationManager/Models/AuthenticationRequest.cs" Line="1" Column="1" />
-      <File FileName="../JWTAuthenticationManager/Models/AuthenticationResponse.cs" Line="1" Column="1" />
-      <File FileName="../JWTAuthenticationManager/JwtTokenHandler.cs" Line="72" Column="1" />
-      <File FileName="../JWTAuthenticationManager/JWTTokenExtension.cs" Line="7" Column="32" />
+      <File FileName="../JWTAuthenticationManager/JwtTokenHandler.cs" Line="15" Column="54" />
+      <File FileName="AuthenticationAPI/Controllers/AccountController.cs" Line="22" Column="1" />
+      <File FileName="Authentication.Infrastructure/Data/AuthenticationDbContext.cs" Line="22" Column="1" />
+      <File FileName="Authentication.ApplicationCore/Models/ApplicationUser.cs" Line="7" Column="3" />
+      <File FileName="Authentication.Infrastructure/Repository/AuthenticationRepository.cs" Line="11" Column="31" />
+      <File FileName="Authentication.ApplicationCore/Contract/Repositories/IAuthenticationRepository.cs" Line="14" Column="1" />
+      <File FileName="Authentication.ApplicationCore/Models/SignUpModel.cs" Line="24" Column="1" />
+      <File FileName="Authentication.ApplicationCore/Contract/Services/IAuthenticationService.cs" Line="7" Column="49" />
+      <File FileName="Authentication.Infrastructure/Service/AuthenticationServiceAsync.cs" Line="1" Column="1" />
+      <File FileName="Authentication.ApplicationCore/Contract/Services/IAccountServiceAsync.cs" Line="1" Column="1" />
+      <File FileName="Authentication.ApplicationCore/Models/LoginModel.cs" Line="15" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
-          <Node name="MicroServiceLearningSolution" expanded="True">
-            <Node name="HRMAuthentication" expanded="True">
-              <Node name="AuthenticationAPI" selected="True" />
-            </Node>
-            <Node name="JWTAuthenticationManager" expanded="True">
-              <Node name="Dependencies" expanded="True">
-                <Node name="PackageDependencies" expanded="True" />
-              </Node>
-            </Node>
-          </Node>
+          <Node name="MicroServiceLearningSolution" expanded="True" />
         </State>
-      </Pad>
-      <Pad Id="MonoDevelop.Debugger.WatchPad">
-        <State />
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
   <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.ItemProperties.HRMRecruiting.RecruitingAPI PreferredExecutionTarget="/Applications/Google Chrome.app" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.HRMAuthentication.AuthenticationAPI PreferredExecutionTarget="/Applications/Google Chrome.app" />
+  <MonoDevelop.Ide.ItemProperties.HRMInterview.InterviewAPI PreferredExecutionTarget="/Applications/Google Chrome.app" />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
 </Properties>

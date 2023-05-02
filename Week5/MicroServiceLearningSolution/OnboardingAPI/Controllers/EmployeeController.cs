@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Onboarding.ApplicationCore.Contract.Services;
 using Onboarding.ApplicationCore.Models;
@@ -11,6 +12,7 @@ using Onboarding.ApplicationCore.Models;
 namespace OnboardingAPI.Controllers
 {
     [Route("api/[controller]")]
+    
     public class EmployeeController : ControllerBase
     {
         private readonly IEmployeeServiceAsync _employeeService;

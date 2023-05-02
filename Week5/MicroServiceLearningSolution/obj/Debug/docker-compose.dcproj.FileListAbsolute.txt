@@ -69,3 +69,8 @@
 /Users/jason_xu/Documents/Antra/workspace/week4/april21/MicroServiceLearningSolution/bin/Debug/Microsoft.IdentityModel.JsonWebTokens.dll
 /Users/jason_xu/Documents/Antra/workspace/week4/april21/MicroServiceLearningSolution/bin/Debug/Microsoft.IdentityModel.Abstractions.dll
 /Users/jason_xu/Documents/Antra/workspace/week4/april21/MicroServiceLearningSolution/bin/Debug/JWTAuthenticationManager.pdb
+/Users/jason_xu/Documents/Antra/workspace/week4/april21/MicroServiceLearningSolution/bin/Debug/Microsoft.Extensions.Identity.Core.dll
+/Users/jason_xu/Documents/Antra/workspace/week4/april21/MicroServiceLearningSolution/bin/Debug/Microsoft.Extensions.Identity.Stores.dll
+/Users/jason_xu/Documents/Antra/workspace/week4/april21/MicroServiceLearningSolution/bin/Debug/Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+/Users/jason_xu/Documents/Antra/workspace/week4/april21/MicroServiceLearningSolution/bin/Debug/Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+/Users/jason_xu/Documents/Antra/workspace/week4/april21/MicroServiceLearningSolution/bin/Debug/Microsoft.AspNetCore.Cryptography.Internal.dll

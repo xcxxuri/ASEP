@@ -12,7 +12,7 @@ using Microsoft.AspNetCore.Mvc;
 namespace InterviewAPI.Controllers
 {
     [Route("api/[controller]")]
-    [Authorize(Roles = "Admin,User")]
+    [Authorize(Roles = "admin,user")]
     public class InterviewerController : ControllerBase
     {
         private readonly IInterviewerServiceAsync _interviewerService;

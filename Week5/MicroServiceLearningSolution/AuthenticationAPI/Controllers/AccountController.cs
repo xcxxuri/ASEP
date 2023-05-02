@@ -7,6 +7,7 @@ using Authentication.ApplicationCore.Models;
 using JWTAuthenticationManager;
 using JWTAuthenticationManager.Models;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.AspNetCore.Identity;
 
 // For more information on enabling Web API for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
 
@@ -17,10 +18,13 @@ namespace AuthenticationAPI.Controllers
     {
         private readonly IAccountServiceAsync _accountService;
         private readonly JwtTokenHandler _jwtTokenHandler;
-        public AccountController(IAccountServiceAsync accountService, JwtTokenHandler jwtTokenHandler)
+        private readonly IAuthenticationServiceAsync _authenticationServiceAsync;
+
+        public AccountController(IAccountServiceAsync accountService, JwtTokenHandler jwtTokenHandler, IAuthenticationServiceAsync authenticationServiceAsync)
         {
             _accountService = accountService;
             _jwtTokenHandler = jwtTokenHandler;
+            _authenticationServiceAsync = authenticationServiceAsync;
         }
 
         // GET: api/values
@@ -55,15 +59,39 @@ namespace AuthenticationAPI.Controllers
         }
 
 
+
         [HttpPost("Login")]
-        public async Task<IActionResult> Login([FromBody] AuthenticationRequest request)
+        public async Task<IActionResult> Login([FromBody] LoginModel model)
         {
-            var response = _jwtTokenHandler.GenerateToken(request);
-            if (response == null)
+            var result = await _authenticationServiceAsync.LoginAsync(model);
+            if (result.Succeeded)
             {
-                return Unauthorized();
+                AuthenticationRequest request = new AuthenticationRequest()
+                {
+                    Username = model.Username,
+                    Password = model.Password
+                };
+                var response = _jwtTokenHandler.GenerateToken(request, "admin");
+                if (response == null)
+                {
+                    return Unauthorized();
+                }
+                return Ok(response);
             }
-            return Ok(response);
+            return BadRequest(result);
+
+        }
+
+
+        [HttpPost("SignUp")]
+        public async Task<IActionResult> SignUp([FromBody] SignUpModel model)
+        {
+            var result = await _authenticationServiceAsync.SignUpAsync(model);
+            if (result.Succeeded)
+            {
+                return Ok("User Created Successfully");
+            }
+            return BadRequest(result);
         }
 
 
